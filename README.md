@@ -9,12 +9,18 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
   - [Clarify](#clarify)
   - [Edge](#edge)
   - [Other](#other)
+- [Amazon Forecast](#amazon-forecast)
+- [Amazon Kendra](#amazon-kendra)
+- [Amazon Lex](#amazon-lex)
 - [Amazon Personalize](#amazon-personalize)
 
 ---
 ## Amazon SageMaker
 
 ### MLOps
+
+\[Blog, 10/21\] [**Industrializing an ML platform with Amazon SageMaker Studio**](https://towardsdatascience.com/industrializing-an-ml-platform-with-amazon-sagemaker-studio-91b597802afe)
+Overview of steps and considerations when setting up Amazon SageMaker Studio as your ML platform. Contains many links to other, more detailed resources.
 
 \[Blog, 10/21\] [**Create a cross-account machine learning training and deployment environment with AWS Code Pipeline**](https://aws.amazon.com/blogs/machine-learning/create-a-cross-account-machine-learning-training-and-deployment-environment-with-aws-code-pipeline/)
 A CI/CD pipeline helps you automate steps in your ML applications and improves security, agility and resilience. In this post, learn how to set up the right cross-accounts IAM roles and trust relationships to create a cross-account pipeline while encrypting your central ML artifact store. Read this if you want to understand how to manually set up an environment similar to SageMaker Projects.
@@ -254,6 +260,54 @@ In this post, we show you how to deploy a PyTorch YOLOv4 model on a SageMaker ML
 
 \[Blog, 03/20\] [**Creating a machine learning-powered REST API with Amazon API Gateway mapping templates and Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/creating-a-machine-learning-powered-rest-api-with-amazon-api-gateway-mapping-templates-and-amazon-sagemaker/)
 In this post, I show how API Gateway can be used to front an Amazon SageMaker inference endpoint as (part of) a REST API, by making use of an API Gateway feature called mapping templates. This feature makes it possible for the REST API to be integrated directly with an Amazon SageMaker runtime endpoint, thereby avoiding the use of any intermediate compute resource (such as AWS Lambda or Amazon ECS containers) to invoke the endpoint. The result is a solution that is simpler, faster, and cheaper to run.
+
+---
+## Amazon Forecast
+
+\[Blog, 09/21\] [**Measuring forecast model accuracy to optimize your business objectives with Amazon Forecast**](https://aws.amazon.com/blogs/machine-learning/measuring-forecast-model-accuracy-to-optimize-your-business-objectives-with-amazon-forecast/)
+This blog has been updated to include three recently launched accuracy metrics in Amazon Forecast and the ability to select an accuracy metric to optimize AutoML.
+
+\[Solution, 05/21\] [**Improving Forecast Accuracy with Machine Learning**](https://aws.amazon.com/solutions/implementations/improving-forecast-accuracy-with-machine-learning/)
+The Improving Forecast Accuracy with Machine Learning solution helps organizations generate accurate forecasts from diverse datasets. You can use this solution to configure and upload your datasets, generate forecasts, and visualize your results. This solution reduces overhead costs for organizations developing new forecasts and optimizes their existing forecasting processes by standardizing tasks and saving developer time.
+
+---
+## Amazon Kendra
+
+\[Blog, 08/21\] [**Field Notes: How to Boost Your Search Results Using Relevance Tuning with Amazon Kendra**](https://aws.amazon.com/blogs/architecture/field-notes-how-to-boost-your-search-results-using-amazon-kendra-relevance-tuning/)
+We will walk through how you can manually tune your index using boosting techniques to achieve the best results. This enables you to prioritize the results from a specific data source so your users get the most relevant results when they perform searches.
+
+\[Blog, 08/21\] [**Scale your Amazon Kendra index**](https://aws.amazon.com/blogs/machine-learning/scale-your-amazon-kendra-index/)
+Read this blog post to learn about the new Amazon Kendra capacity units and revised pricing launched in July. It also provides guidance and best practices around how to estimate capacity for your Amazon Kendra index.
+
+\[Blog, 07/21\] [**Simplify secure search solutions with Amazon Kendra’s Principal Store**](https://aws.amazon.com/blogs/machine-learning/simplify-secure-search-solutions-with-the-new-principal-store-for-secure-search-in-amazon-kendra/)
+The Principal Store feature provides an Application Programming Interface (API) to store the mapping between a user ID and the groups that it has access to. When a customer application issues a query to the Amazon Kendra index, the application only needs to send the user ID. Amazon Kendra looks up the user ID in the Principal Store and finds the corresponding groups. It then filters the results based on the groups the user has access to.
+
+\[Blog, 05/21\] [**Automatically scale Amazon Kendra query capacity units with Amazon EventBridge and AWS Lambda**](https://aws.amazon.com/blogs/machine-learning/automatically-scale-amazon-kendra-query-capacity-units-with-amazon-eventbridge-and-aws-lambda/)
+Learn how to automatically scale your Amazon Kendra index query and storage capacity around a time schedule using Amazon EventBridge and AWS Lambda. This solution will allow customers to increase capacity and avoid throttling during times of peak usage, while maintaining lower costs during periods of reduced activity.
+
+\[Blog, 05/21\] [**Build an intelligent search solution with automated content enrichment**](https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-search-solution-with-automated-content-enrichment/)
+Metadata can help search users narrow down a list of relevant documents by filtering and faceting. If your original data doesn’t contain metadata, you can add it to enrich your search experience. This post outlines how you can automate and simplify metadata generation for your unstructured data, making it easier to search and discover.
+
+\[Blog, 01/21\] [**Building a secure search application with access controls using Amazon Kendra**](https://aws.amazon.com/blogs/machine-learning/building-a-secure-search-application-with-access-controls-using-amazon-kendra/)
+Illustrates how to build an Amazon Kendra-powered search application supporting access controls that reflect the security model of an example organization using token-based user access control with Open ID.
+
+\[Workshop, 12/20\] [**Kendra Essentials+ Workshop**](https://kendra-essentials.workshop.aws/en/)
+A step-by-step walkthrough of basic Kendra functionality with explanations.
+
+---
+## Amazon Lex
+
+\[Blog, 09/21\] [**How to approach conversation design: The basics (Part 1)**](https://aws.amazon.com/blogs/machine-learning/part-1-approach-conversation-design-the-basics/)
+Conversational interfaces have the potential to allow customers to interact more naturally with automated systems. In the first part of this multi-part series, we discuss the basics of conversational design, including how to identify use cases for conversational AI, and crafting system personalities.
+
+\[Blog, 08/21\] [**Build conversation flows with multi-valued slots in Amazon Lex**](https://aws.amazon.com/blogs/machine-learning/build-conversation-flows-with-multi-valued-slots-in-amazon-lex/)
+Multiple pieces of information are often required to complete a task or to process a query. These pieces of information often take the form of lists in a conversation (i.e., Can you provide me insurance quotes for home, auto, boat, etc.). Previously, developers had to use multiple slots to capture each value in the list. Now, support for multi-valued slots exists in Amazon Lex.
+
+\[Blog, 06/21\] [**Interact with an Amazon Lex V2 bot with the AWS CLI, AWS SDK for Python (Boto3), and AWS SDK for DotNet**](https://aws.amazon.com/blogs/machine-learning/interact-with-an-amazon-lex2v2-bot-with-the-aws-cli-aws-sdk-for-python-and-aws-sdk-dotnet/)
+The Amazon Lex V2 console and APIs introduce a new method to build and interact with your bots. This post illustrates different methods to interact with a Amazon Lex V2 chatbot programmatically using the: AWS Command Line Interface, (AWS CLI), AWS SDK for Python (Boto3), and the AWS SDK for DotNet.
+
+\[Workshop, 05/21\] [**Amazon Lex Workshops**](https://amazonlex.workshop.aws/)
+The new Amazon Lex V2 Console makes it easier to build, deploy, and manage bots. In this workshop you will learn about how to use the Amazon Lex Console and API, basic bot building concepts, and how to create some simple bots - all of these will be done using the Lex V2 console. 
 
 ---
 ## Amazon Personalize

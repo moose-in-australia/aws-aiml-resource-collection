@@ -10,9 +10,14 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
   - [Edge](#edge)
   - [Other](#other)
 - [Amazon Forecast](#amazon-forecast)
+- [Amazon Fraud Detector](#amazon-fraud-detector)
 - [Amazon Kendra](#amazon-kendra)
 - [Amazon Lex](#amazon-lex)
+- [Amazon Lookout for Metrics](#amazon-lookout-for-metrics)
 - [Amazon Personalize](#amazon-personalize)
+- [Amazon Rekognition](#amazon-rekognition)
+- [Amazon Textract](#amazon-textract)
+- [Amazon Transcribe](#amazon-transcribe)
 
 ---
 ## Amazon SageMaker
@@ -271,6 +276,18 @@ This blog has been updated to include three recently launched accuracy metrics i
 The Improving Forecast Accuracy with Machine Learning solution helps organizations generate accurate forecasts from diverse datasets. You can use this solution to configure and upload your datasets, generate forecasts, and visualize your results. This solution reduces overhead costs for organizations developing new forecasts and optimizes their existing forecasting processes by standardizing tasks and saving developer time.
 
 ---
+## Amazon Fraud Detector
+
+\[Blog, 09/21\] [**Manage your Amazon Fraud Detector resources in an automated and secure manner using AWS CloudFormation**](https://aws.amazon.com/blogs/machine-learning/manage-your-amazon-fraud-detector-resources-in-an-automated-and-secure-manner-using-aws-cloudformation/)
+With AWS CloudFormation, you can make changes to any number of Amazon Fraud Detector resources at once and easily repeat those changes across Regions and accounts with minimal additional effort. This post walks you through how to use AWS CloudFormation to create a stack of sample Amazon Fraud Detector resources and how to update that stack.
+
+\[Code Sample, 07/21\] [**Amazon Fraud Detector End-to-End**](https://github.com/aws-samples/amazon-fraud-detector-end-to-end)
+This repository contains a collection of example Jupyter notebooks that interact with the Amazon Fraud Detector APIs and make use of numerous SageMaker features to prepare data, develop an Amazon Fraud Detector model, create a custom container image with necessary dependencies and use SageMaker pipelines to automate end to end flow.
+
+\[Blog, 06/21\] [**Event-based fraud detection with direct customer calls using Amazon Connect**](https://aws.amazon.com/blogs/machine-learning/event-based-fraud-detection-with-direct-customer-calls-using-amazon-connect/)
+Read this blog post to learn how to build, train, and deploy a fraud detection model and rules using Amazon Fraud Detector and integrate predictions with Amazon Connect in order to connect with customers in real time.
+
+---
 ## Amazon Kendra
 
 \[Blog, 08/21\] [**Field Notes: How to Boost Your Search Results Using Relevance Tuning with Amazon Kendra**](https://aws.amazon.com/blogs/architecture/field-notes-how-to-boost-your-search-results-using-amazon-kendra-relevance-tuning/)
@@ -310,6 +327,18 @@ The Amazon Lex V2 console and APIs introduce a new method to build and interact 
 The new Amazon Lex V2 Console makes it easier to build, deploy, and manage bots. In this workshop you will learn about how to use the Amazon Lex Console and API, basic bot building concepts, and how to create some simple bots - all of these will be done using the Lex V2 console. 
 
 ---
+## Amazon Lookout for Metrics
+
+\[Blog, 08/21\] [**Simplify and automate anomaly detection in streaming data with Amazon Lookout for Metrics**](https://aws.amazon.com/blogs/machine-learning/simplify-and-automate-anomaly-detection-in-streaming-data-with-amazon-lookout-for-metrics/)
+Amazon Lookout for Metrics does not currently have a native integration with Amazon Kinesis Data Streams to ingest streaming data and run anomaly detection on it. This blog can help customers solve this problem by using an AWS Glue Spark streaming ETL script to ingest and organize streaming data.
+
+\[Blog, 08/21\] [**Detect anomalies in operational metrics using Dynatrace and Amazon Lookout for Metrics**](https://aws.amazon.com/blogs/machine-learning/detect-anomalies-in-operation-metrics-using-dynatrace-and-amazon-lookout-for-metrics/)
+Learn how to set up anomaly detection within your operational metrics. This post demonstrates how you can connect to your IT operational infrastructure monitored by Dynatrace using Amazon AppFlow and set up an accurate anomaly detector across metrics and dimensions using Lookout for Metrics.
+
+\[Blog, 07/21\] [**Smart city traffic anomaly detection using Amazon Lookout for Metrics and Amazon Kinesis Data Analytics Studio**](https://aws.amazon.com/blogs/machine-learning/smart-city-traffic-anomaly-detection-using-amazon-lookout-for-metrics-and-amazon-kinesis-data-analytics-studio/)
+This post shows you how to use an integrated solution with Amazon Lookout for Metrics and Amazon Kinesis Data Analytics Studio (among other AWS services) to break these barriers by quickly and easily ingesting streaming data, aggregating and curating it, and subsequently detecting anomalies in the key performance indicators of your interest.
+
+---
 ## Amazon Personalize
 
 \[Blog, 08/21\] [**Optimize personalized recommendations for a business metric of your choice with Amazon Personalize**](https://aws.amazon.com/blogs/machine-learning/optimize-personalized-recommendations-for-a-business-metric-of-your-choice-with-amazon-personalize/)
@@ -332,3 +361,42 @@ In this video series you will get an introduction to Amazon Personalize and dive
 
 \[Tool, 12/20\] [**Amazon Personalize Monitor**](https://github.com/aws-samples/amazon-personalize-monitor)
 This project contains the source code and supporting files for deploying a serverless application that adds monitoring, alerting, and optimization capabilities for Amazon Personalize.
+
+---
+## Amazon Rekognition
+
+\[Blog, 09/21\] [**Calculate inference units for an Amazon Rekognition Custom Labels model**](https://aws.amazon.com/blogs/machine-learning/calculate-inference-units-for-an-amazon-rekognition-custom-labels-model/)
+Determining the number of inference units (IUs) required to optimally run inference on your Amazon Rekognition Custom Labels model can be tricky. In this post, learn how to calculate the IUs you need to meet your workload performance requirements at the lowest possible cost.
+
+\[Blog, 09/21\] [**Explore image analysis results from Amazon Rekognition and store your findings in Amazon DocumentDB**](https://aws.amazon.com/blogs/machine-learning/explore-image-analysis-results-from-amazon-rekognition-and-store-your-findings-in-amazon-documentdb/)
+In this post, we focus on the use case of enabling image search and exploration of a generic photo collection. We look at the JSON output of image analysis generated from Amazon Rekognition, which we ingest into Amazon DocumentDB, and then explore using Amazon SageMaker.
+
+\[Blog, 07/21\] **Automate continuous model improvement with Amazon Rekognition Custom Labels and Amazon A2I ([Part 1](https://aws.amazon.com/blogs/machine-learning/part1-automate-continuous-model-improvement-with-amazon-rekognition-custom-labels-and-amazon-a2i/)) ([Part 2](https://aws.amazon.com/blogs/machine-learning/part2-automate-continuous-model-improvement-with-amazon-rekognition-custom-labels-and-amazon-a2i/))**
+This post is the first in a two-part series that explains how to implement an automated Amazon Rekognition Custom Labels and Amazon Augmented AI (Amazon A2I) ML workflow that can provide continuous model improvement without requiring ML expertise.
+
+\[Blog, 07/21\] [**Detect small shapes and objects within your images using Amazon Rekognition Custom Labels**](https://aws.amazon.com/blogs/machine-learning/detect-small-shapes-and-objects-within-your-images-using-amazon-rekognition-custom-labels/)
+In this post, we demonstrate a preprocessing method to increase the size ratio of small objects with respect to an image and optimize the object detection capabilities of Amazon Rekognition Custom Labels, effectively solving the small object detection challenge.
+
+---
+## Amazon Textract
+
+\[Blog, 10/21\] [**Bring structure to diverse documents with Amazon Textract and transformer-based models on Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/bring-structure-to-diverse-documents-with-amazon-textract-and-transformer-based-models-on-amazon-sagemaker/)
+In this in-depth blog post, learn different ways to use Amazon Textract and Amazon SageMaker to automate especially challenging document analysis tasks.
+
+\[Blog, 06/21\] [**Improve newspaper digitalization efficacy with a generic document segmentation tool using Amazon Textract**](https://aws.amazon.com/blogs/machine-learning/improve-newspaper-digitalization-efficacy-with-a-generic-document-segmentation-tool-using-amazon-textract/)
+Text extraction from newspapers is difficult because of different layouts, structures, and images. Learn how Amazon ML Solutions Lab was able to overcome this problem by developing a custom neural network-based document segmentation engine with Amazon SageMaker and Amazon Textract.
+
+\[Blog, 03/21\] [**PDF document pre-processing with Amazon Textract: Visuals detection and removal**](https://aws.amazon.com/blogs/machine-learning/process-text-and-images-in-pdf-documents-with-amazon-textract/)
+In many use cases, you need to extract and analyze documents with various visuals, such as logos, photos, and charts. These visuals contain embedded text that convolutes Amazon Textract output or isn’t required for your downstream process. For example, many real estate evaluation forms or documents contain pictures of houses or trends of historical prices. This information isn’t needed in downstream processes, and you have to remove it before using Amazon Textract to analyze the document. In this post, we illustrate two effective methods to remove these visuals as part of your preprocessing.
+
+---
+## Amazon Transcribe
+
+\[Blog, 09/21\] [**Boost transcription accuracy of class lectures with custom language models for Amazon Transcribe**](https://aws.amazon.com/blogs/machine-learning/transcribe-class-lectures-accurately-using-amazon-transcribe-with-custom-language-models/)
+When transcribing content that is more specialized or domain-specific such as biology, Amazon Transcribe offers custom language models (CLM). One common problem we see is the difficulty in accurately transcribing certain subjects. In this post, we show how you can harness readily available content to train a CLM in Amazon Transcribe and boost the transcription accuracy on scientific subjects like biology.
+
+\[Blog, 09/21\] [**Now available in Amazon Transcribe: Automatic Redaction of Personally Identifiable Information**](https://aws.amazon.com/blogs/aws/now-available-in-amazon-transcribe-automatic-redaction-of-personally-identifiable-information/) & [**How to redact personally identifiable information from audio files with Amazon Transcribe**](https://aws.amazon.com/blogs/machine-learning/perform-audio-redaction-for-personally-identifiable-information-with-amazon-transcribe/)
+These posts are about redacting PII in Amazon Transcribe and demonstrates an approach for redacting PII from both a text transcription and source audio file.
+
+\[Blog, 05/21\] [**Improve the streaming transcription experience with Amazon Transcribe partial results stabilization**](https://aws.amazon.com/blogs/machine-learning/amazon-transcribe-now-supports-partial-results-stabilization-for-streaming-audio/)
+We’re happy to announce that Amazon Transcribe now allows you to enable and configure partial results stabilization for streaming audio transcriptions. Amazon Transcribe is an automatic speech recognition (ASR) service that enables developers to add real-time speech-to-text capabilities into their applications for on-demand and streaming content. Instead of waiting for an entire sentence to be transcribed, you can now control the stabilization level of partial results. Transcribe offers 3 settings: High, Medium and Low. Setting the stabilization “High” allows a greater portion of the partial results to be fixed with only the last few words changing during the transcription process. This feature helps you have more flexibility in your streaming transcription workflows based on the user experience you want to create.

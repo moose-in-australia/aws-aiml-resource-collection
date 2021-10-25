@@ -416,6 +416,11 @@ The new Amazon Lex V2 Console makes it easier to build, deploy, and manage bots.
 ---
 ## Amazon Lookout for Metrics
 
+* [Blog](#lookout-for-metrics-blog)
+* [Workshop](#lookout-for-metrics-workshop)
+
+### Lookout for Metrics Blog
+
 \[Blog, 08/21\] [**Simplify and automate anomaly detection in streaming data with Amazon Lookout for Metrics**](https://aws.amazon.com/blogs/machine-learning/simplify-and-automate-anomaly-detection-in-streaming-data-with-amazon-lookout-for-metrics/)
 Amazon Lookout for Metrics does not currently have a native integration with Amazon Kinesis Data Streams to ingest streaming data and run anomaly detection on it. This blog can help customers solve this problem by using an AWS Glue Spark streaming ETL script to ingest and organize streaming data.
 
@@ -424,6 +429,11 @@ Learn how to set up anomaly detection within your operational metrics. This post
 
 \[Blog, 07/21\] [**Smart city traffic anomaly detection using Amazon Lookout for Metrics and Amazon Kinesis Data Analytics Studio**](https://aws.amazon.com/blogs/machine-learning/smart-city-traffic-anomaly-detection-using-amazon-lookout-for-metrics-and-amazon-kinesis-data-analytics-studio/)
 This post shows you how to use an integrated solution with Amazon Lookout for Metrics and Amazon Kinesis Data Analytics Studio (among other AWS services) to break these barriers by quickly and easily ingesting streaming data, aggregating and curating it, and subsequently detecting anomalies in the key performance indicators of your interest.
+
+### Lookout for Metrics Workshop
+
+\[Workshop, 10/21\] [**Amazon Lookout for Metrics Workshop**](https://lookoutformetrics.workshop.aws/en/)
+This workshop guides participants through the steps of setting up and using Amazon Lookout for Metrics. It consists of two sections: backtesting on historical data, and generating readable alerts from anomalies. 
 
 ---
 ## Amazon Personalize

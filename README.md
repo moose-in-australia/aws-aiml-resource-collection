@@ -440,10 +440,15 @@ This workshop guides participants through the steps of setting up and using Amaz
 
 * [Blog](#personalize-blog)
 * [Code Sample](#personalize-code-sample)
+* [Solution](#personalize-solution)
 * [Video](#personalize-video)
 * [Workshop](#personalize-workshop)
 
 ### Personalize Blog
+
+\[Blog, 10/21\] [**Amazon Personalize can now unlock intrinsic signals in your catalog to recommend similar items**](https://aws.amazon.com/blogs/machine-learning/amazon-personalize-can-now-unlock-intrinsic-signals-in-your-catalog-to-recommend-similar-items/)
+This post shows you how to use our new recipe (aws-similar-items) and illustrates the difference compared to our collaborative filtering-based recipe (SIMS).
+
 
 \[Blog, 08/21\] [**Optimize personalized recommendations for a business metric of your choice with Amazon Personalize**](https://aws.amazon.com/blogs/machine-learning/optimize-personalized-recommendations-for-a-business-metric-of-your-choice-with-amazon-personalize/)
 Amazon Personalize now enables customers to optimize personalized recommendations for a business metric of choice such as revenue, profit margin, video watch time, or any other numerical attribute to optimize their recommendations.
@@ -461,6 +466,11 @@ In this post, we describe the architectures used in our application for serving 
 
 \[Code Sample, 12/20\] [**Amazon Personalize Monitor**](https://github.com/aws-samples/amazon-personalize-monitor)
 This project contains the source code and supporting files for deploying a serverless application that adds monitoring, alerting, and optimization capabilities for Amazon Personalize.
+
+### Personalize Solution
+
+\[Solution, 10/21\] [**Maintaining Personalized Experiences with Machine Learning**](https://aws.amazon.com/solutions/implementations/maintaining-personalized-experiences-with-ml/?did=sl_card&trk=sl_card.)
+This solution streamlines and accelerates the development and deployment of your personalization workloads through end-to-end automation and scheduling of updates for resources within the Amazon Personalize service.
 
 ### Personalize Video
 

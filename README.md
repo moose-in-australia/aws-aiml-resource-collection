@@ -399,8 +399,8 @@ A step-by-step walkthrough of basic Kendra functionality with explanations.
 
 ### Lex Blog
 
-\[Blog, 09/21\] [**How to approach conversation design: The basics (Part 1)**](https://aws.amazon.com/blogs/machine-learning/part-1-approach-conversation-design-the-basics/)
-Conversational interfaces have the potential to allow customers to interact more naturally with automated systems. In the first part of this multi-part series, we discuss the basics of conversational design, including how to identify use cases for conversational AI, and crafting system personalities.
+\[Blog, 09/21\] **How to approach conversation design [(Part 1)](https://aws.amazon.com/blogs/machine-learning/part-1-approach-conversation-design-the-basics/) [(Part 2)](https://aws.amazon.com/blogs/machine-learning/part-2-how-to-approach-conversation-design-getting-started-with-amazon-lex/)**
+The first part of this multi-part series, discusses the basics of conversational design, including how to identify use cases for conversational AI, and crafting system personalities. The second part reviews high-level design best practices and how to use them when designing your conversational interfaces.
 
 \[Blog, 08/21\] [**Build conversation flows with multi-valued slots in Amazon Lex**](https://aws.amazon.com/blogs/machine-learning/build-conversation-flows-with-multi-valued-slots-in-amazon-lex/)
 Multiple pieces of information are often required to complete a task or to process a query. These pieces of information often take the form of lists in a conversation (i.e., Can you provide me insurance quotes for home, auto, boat, etc.). Previously, developers had to use multiple slots to capture each value in the list. Now, support for multi-valued slots exists in Amazon Lex.

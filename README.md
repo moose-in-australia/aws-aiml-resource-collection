@@ -34,6 +34,15 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
 
 #### MLOps Blog
 
+\[Blog, 11/21\] [**Design a compelling record filtering method with Amazon SageMaker Model Monitor**](https://aws.amazon.com/blogs/machine-learning/design-a-compelling-record-filtering-method-with-amazon-sagemaker-model-monitor/)
+In this post, we present how to build a record filtering method based on sets of business criteria as part of the preprocessing step in Model Monitor. The goal is to ensure that only the actual production records are sent to Model Monitor for analysis, reflecting the actual usage of the production endpoint.
+
+\[Blog, 11/21\] [**Automate model retraining with Amazon SageMaker Pipelines when drift is detected**](https://aws.amazon.com/blogs/machine-learning/automate-model-retraining-with-amazon-sagemaker-pipelines-when-drift-is-detected/)
+Training your machine learning (ML) model and serving predictions is usually not the end of the ML project. The accuracy of ML models can deteriorate over time, a phenomenon known as model drift. Many factors can cause model drift, such as changes in model features. The accuracy of ML models can also be affected by concept drift, the difference between data used to train models and data used during inference. In this post, we discuss how to automate retraining with pipelines in SageMaker when model drift is detected.
+
+\[Blog, 10/21\] [**Enhance your machine learning development by using a modular architecture with Amazon SageMaker projects**](https://aws.amazon.com/blogs/machine-learning/enhance-your-machine-learning-development-by-using-a-modular-architecture-with-amazon-sagemaker-projects/)
+This post walks you through the implementation of a custom SageMaker project. We discuss how to do the following: Create a project with your resources, Understand the project lifecycle, View project resources, Create a Studio domain and deploy a product portfolio, Work with the project and run a data transformation and ingestion pipeline
+
 \[Blog, 10/21\] [**Industrializing an ML platform with Amazon SageMaker Studio**](https://towardsdatascience.com/industrializing-an-ml-platform-with-amazon-sagemaker-studio-91b597802afe)
 Overview of steps and considerations when setting up Amazon SageMaker Studio as your ML platform. Contains many links to other, more detailed resources.
 
@@ -276,6 +285,9 @@ This repository contains examples of different models, showing how they can be b
 
 #### Edge Workshop
 
+\[Workshop, 11/21\] [**ML@Edge with SageMaker Edge Manager**](https://github.com/aws-samples/amazon-sagemaker-edge-manager-workshop)
+In this workshop you will create an end-to-end solution that shows how to detect anomalies in the components of wind turbines. We'll use Amazon SageMaker to prepare a Machine Learning (ML) model and Amazon SageMaker Edge Manager to deploy and run this model to an edge device (small computer).
+
 \[Workshop, 09/21\] [**End-to-end AIoT w/ SageMaker and Greengrass 2.0 on NVIDIA Jetson Nano**](https://github.com/aws-samples/aiot-e2e-sagemaker-greengrass-v2-nvidia-jetson)
 Hands-on lab from ML model training to model compilation to edge device model deployment on the AWS Cloud. It covers the detailed method of compiling SageMaker Neo for the target device, including cloud instance and edge device, and how to write and deploy Greengrass-v2 components from scratch.
 
@@ -285,6 +297,15 @@ Hands-on lab from ML model training to model compilation to edge device model de
 * [Workshop](#other-workshop)
 
 #### Other Blog
+
+\[Blog, 11/21\] [**Run distributed hyperparameter and neural architecture tuning jobs with Syne Tune**](https://aws.amazon.com/blogs/machine-learning/run-distributed-hyperparameter-and-neural-architecture-tuning-jobs-with-syne-tune/)
+Today we announce the general availability of Syne Tune, an open-source Python library for large-scale distributed hyperparameter and neural architecture optimization. It provides implementations of several state-of-the-art global optimizers, such as Bayesian optimization, Hyperband, and population-based training. Additionally, it supports constrained and multi-objective optimization, and allows you to bring your own global optimization algorithm.
+
+\[Blog, 11/21\] [**Host RStudio Connect and Package Manager for ML development in RStudio on Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/host-rstudio-connect-and-package-manager-for-ml-development-in-rstudio-on-amazon-sagemaker/)
+In this post, we first show you how to architect and deploy RStudio Connect and RStudio Package Manager with a well-architected solution in AWS. We then show you how to use RStudio Connect and RStudio Package Manager from RStudio on SageMaker. We use an UCI breast cancer dataset to build out several types of ML content in R language in RStudio on SageMaker. The ML content we demonstrate in the post includes R Markdown and an R Shiny application.
+
+\[Blog, 10/21\] [**Field Notes: Build a Cross-Validation Machine Learning Model Pipeline at Scale with Amazon SageMaker**](https://aws.amazon.com/blogs/architecture/field-notes-build-a-cross-validation-machine-learning-model-pipeline-at-scale-with-amazon-sagemaker/)
+In this blog post, we are going to walk through the steps for building a highly scalable, high-accuracy, machine learning pipeline, with the k-fold cross-validation method, using Amazon Simple Storage Service (Amazon S3), Amazon SageMaker Pipelines, SageMaker automatic model tuning, and SageMaker training at scale.
 
 \[Blog, 09/21\] [**Announcing the Amazon S3 plugin for PyTorch**](https://aws.amazon.com/blogs/machine-learning/announcing-the-amazon-s3-plugin-for-pytorch/)
 Amazon S3 plugin for PyTorch is an open-source library which is built to be used with the deep learning framework PyTorch for streaming data from Amazon Simple Storage Service (Amazon S3). With this feature available in PyTorch Deep Learning Containers, you can take advantage of using data from S3 buckets directly with PyTorch dataset and dataloader APIs without needing to download it first on local storage.

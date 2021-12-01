@@ -513,6 +513,11 @@ In many use cases, you need to extract and analyze documents with various visual
 ---
 ## Amazon Transcribe
 
+* [Blog](#transcribe-blog)
+* [Video](#transcribe-video)
+
+### Transcribe Blog
+
 \[Blog, 09/21\] [**Boost transcription accuracy of class lectures with custom language models for Amazon Transcribe**](https://aws.amazon.com/blogs/machine-learning/transcribe-class-lectures-accurately-using-amazon-transcribe-with-custom-language-models/)
 When transcribing content that is more specialized or domain-specific such as biology, Amazon Transcribe offers custom language models (CLM). One common problem we see is the difficulty in accurately transcribing certain subjects. In this post, we show how you can harness readily available content to train a CLM in Amazon Transcribe and boost the transcription accuracy on scientific subjects like biology.
 
@@ -521,6 +526,14 @@ These posts are about redacting PII in Amazon Transcribe and demonstrates an app
 
 \[Blog, 05/21\] [**Improve the streaming transcription experience with Amazon Transcribe partial results stabilization**](https://aws.amazon.com/blogs/machine-learning/amazon-transcribe-now-supports-partial-results-stabilization-for-streaming-audio/)
 We’re happy to announce that Amazon Transcribe now allows you to enable and configure partial results stabilization for streaming audio transcriptions. Amazon Transcribe is an automatic speech recognition (ASR) service that enables developers to add real-time speech-to-text capabilities into their applications for on-demand and streaming content. Instead of waiting for an entire sentence to be transcribed, you can now control the stabilization level of partial results. Transcribe offers 3 settings: High, Medium and Low. Setting the stabilization “High” allows a greater portion of the partial results to be fixed with only the last few words changing during the transcription process. This feature helps you have more flexibility in your streaming transcription workflows based on the user experience you want to create.
+
+### Transcribe Video
+
+\[Video, 10/21\] [**Amazon Transcribe video snacks: Using vocabulary filters**](https://www.youtube.com/watch?v=TcpSqbr0FnI)
+Amazon Transcribe is a automatic speech recognition service that can be used when you have audio and video that contains speech you want to convert to text. You can mask, remove, or tag words you don't want in your transcription results with vocabulary filtering. For example, you can use vocabulary filtering to prevent the display of offensive or profane terms. In the demo, I’ll customize Transcribe to mask swear words that I recently encountered in a famous play written by William Shakespeare.
+
+\[Video, 08/21\] [**Amazon Transcribe video snacks: Using custom vocabulary**](https://www.youtube.com/watch?v=oBgSJ7bsP2U)
+Amazon Transcribe is a automatic speech recognition service that can be used when you have audio and video that contains speech you want to convert to text. If your speech has domain-specific terms like proper nouns, brand names, or technical jargon, then you’ll want to use the custom vocabulary feature. This feature can help you enhance transcription accuracy by addressing these “custom terms” using a list of specific words or phrases that you want Transcribe to recognize. In the demo, I’ll customize Transcribe to recognize skateboarding trick names I saw during the Tokyo Olympics by creating two types of custom vocabulary lists, supporting both custom pronunciation and custom display. 
 
 ---
 ## Amazon Translate

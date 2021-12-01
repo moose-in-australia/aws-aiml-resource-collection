@@ -18,6 +18,7 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
 - [Amazon Rekognition](#amazon-rekognition)
 - [Amazon Textract](#amazon-textract)
 - [Amazon Transcribe](#amazon-transcribe)
+- [Amazon Translate](#amazon-translate)
 
 ---
 ## Amazon SageMaker
@@ -520,3 +521,25 @@ These posts are about redacting PII in Amazon Transcribe and demonstrates an app
 
 \[Blog, 05/21\] [**Improve the streaming transcription experience with Amazon Transcribe partial results stabilization**](https://aws.amazon.com/blogs/machine-learning/amazon-transcribe-now-supports-partial-results-stabilization-for-streaming-audio/)
 We’re happy to announce that Amazon Transcribe now allows you to enable and configure partial results stabilization for streaming audio transcriptions. Amazon Transcribe is an automatic speech recognition (ASR) service that enables developers to add real-time speech-to-text capabilities into their applications for on-demand and streaming content. Instead of waiting for an entire sentence to be transcribed, you can now control the stabilization level of partial results. Transcribe offers 3 settings: High, Medium and Low. Setting the stabilization “High” allows a greater portion of the partial results to be fixed with only the last few words changing during the transcription process. This feature helps you have more flexibility in your streaming transcription workflows based on the user experience you want to create.
+
+---
+## Amazon Translate
+
+* [Blog](#translate-blog)
+* [Code Sample](#translate-code-sample)
+* [Video](#translate-video)
+
+### Translate Blog
+
+\[Blog, 11/21\] [**Customize Amazon Translate output to meet your domain and organization specific vocabulary**](https://aws.amazon.com/blogs/machine-learning/customize-amazon-translate-output-to-meet-your-domain-and-organization-specific-vocabulary/)
+When you translate from one language to another, you want your machine translation to be accurate, fluent, and most importantly contextual. Customization is key in keeping your machine translation contextual. Amazon Translate provides multiple capabilities for customization to achieve the best machine translation. One such capability is custom terminology. Custom terminology enables you to customize your translation output such that your domain and organization specific vocabulary such as brand names, character names, model names, and other unique content (named entities) are translated exactly the way you need. In this post, we walk you through the step-by-step process of how to use custom terminology and get a customized machine translated output securely.
+
+### Translate Code Sample
+
+\[Code Sample, 02/21\] [**Translating Captions files (VTT, SRT) using Amazon Translate**](https://github.com/aws-samples/amazon-translate-video-subtitles-captions-translation)
+This project contains source code and supporting files for a serverless pipeline for translating Caption files in VTT and SRT formats using Amazon Translate that you can deploy with the SAM CLI. 
+
+### Translate Video
+
+\[Video, 03/21\] [**Amazon Translate | Deep Dive Video Series**](https://www.youtube.com/playlist?list=PLhr1KZpdzukePPoSt1BZUNYQ6r5BdNm-1)
+A collection of videos covering the functionality of Amazon Translate and several solutions addressing specific use cases. 

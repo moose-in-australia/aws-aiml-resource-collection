@@ -334,6 +334,9 @@ An Amazon SageMaker Immersion Day provides our customers with hands-on experienc
 
 ### Forecast Blog
 
+\[Blog, 11/21\] [**Understand drivers that influence your forecasts with explainability impact scores in Amazon Forecast**](https://aws.amazon.com/blogs/machine-learning/understand-drivers-that-influence-your-forecasts-with-explainability-impact-scores-in-amazon-forecast/)
+Amazon Forecast now provides explainability, which gives you item-level insights across your preferred time duration. Having a certain level of understanding on why a particular forecast value is high or low at a particular time is helpful for decision-making and building trust and confidence in your ML solutions.
+
 \[Blog, 09/21\] [**Measuring forecast model accuracy to optimize your business objectives with Amazon Forecast**](https://aws.amazon.com/blogs/machine-learning/measuring-forecast-model-accuracy-to-optimize-your-business-objectives-with-amazon-forecast/)
 This blog has been updated to include three recently launched accuracy metrics in Amazon Forecast and the ability to select an accuracy metric to optimize AutoML.
 
@@ -369,6 +372,9 @@ This repository contains a collection of example Jupyter notebooks that interact
 
 ### Kendra Blog
 
+\[Blog, 11/21\] [**Process and add additional file formats to your Amazon Kendra Index**](https://aws.amazon.com/blogs/machine-learning/process-and-add-additional-file-formats-to-your-amazon-kendra-index/)
+As of September 2021, Amazon Kendra accepts the following document types: Plaintext, HTML, PDF, Microsoft PowerPoint, and Microsoft Word. In this post, we show how to add other formats, including RTF and markdown, to your Amazon Kendra indexes. In addition, we demonstrate how you can add additional file formats to your Amazon Kendra cluster.
+
 \[Blog, 08/21\] [**Field Notes: How to Boost Your Search Results Using Relevance Tuning with Amazon Kendra**](https://aws.amazon.com/blogs/architecture/field-notes-how-to-boost-your-search-results-using-amazon-kendra-relevance-tuning/)
 We will walk through how you can manually tune your index using boosting techniques to achieve the best results. This enables you to prioritize the results from a specific data source so your users get the most relevant results when they perform searches.
 
@@ -400,6 +406,9 @@ A step-by-step walkthrough of basic Kendra functionality with explanations.
 
 ### Lex Blog
 
+\[Blog, 11/21\] [**Monitor operational metrics for your Amazon Lex chatbot**](https://aws.amazon.com/blogs/machine-learning/monitor-operational-metrics-for-your-amazon-lex-chatbot/)
+Designing a bot and deploying it in production is only the beginning of the journey. You want to analyze the bot’s performance over time to gather insights that can help you adapt the bot to your customers’ needs. A deeper understanding of key metrics such as trending topics, top utterances, missed utterances, conversation flow patterns, and customer sentiment help you enhance your bot to better engage with customers and improve their overall satisfaction. It then becomes crucial to have a conversational analytics dashboard to gain these insights from a single place. In this post, we look at deploying an analytics dashboard solution for your Amazon Lex bot. 
+
 \[Blog, 09/21\] **How to approach conversation design [(Part 1)](https://aws.amazon.com/blogs/machine-learning/part-1-approach-conversation-design-the-basics/) [(Part 2)](https://aws.amazon.com/blogs/machine-learning/part-2-how-to-approach-conversation-design-getting-started-with-amazon-lex/)**
 The first part of this multi-part series, discusses the basics of conversational design, including how to identify use cases for conversational AI, and crafting system personalities. The second part reviews high-level design best practices and how to use them when designing your conversational interfaces.
 
@@ -418,6 +427,7 @@ The new Amazon Lex V2 Console makes it easier to build, deploy, and manage bots.
 ## Amazon Lookout for Metrics
 
 * [Blog](#lookout-for-metrics-blog)
+* [Code Sample](#lookout-for-metrics-code-sample)
 * [Workshop](#lookout-for-metrics-workshop)
 
 ### Lookout for Metrics Blog
@@ -430,6 +440,11 @@ Learn how to set up anomaly detection within your operational metrics. This post
 
 \[Blog, 07/21\] [**Smart city traffic anomaly detection using Amazon Lookout for Metrics and Amazon Kinesis Data Analytics Studio**](https://aws.amazon.com/blogs/machine-learning/smart-city-traffic-anomaly-detection-using-amazon-lookout-for-metrics-and-amazon-kinesis-data-analytics-studio/)
 This post shows you how to use an integrated solution with Amazon Lookout for Metrics and Amazon Kinesis Data Analytics Studio (among other AWS services) to break these barriers by quickly and easily ingesting streaming data, aggregating and curating it, and subsequently detecting anomalies in the key performance indicators of your interest.
+
+### Lookout for Metrics Code Sample
+
+\[Code Sample, 10/21\] [**Visualize your Lookout for Metrics on QuickSight**](https://github.com/aws-samples/amazon-lookout-for-metrics-samples/blob/main/getting_started/5.UseQuicksightToVisualizeL4M.ipynb)
+The notebook generates all the necessary resources to bring your inference results and live data from Amazon Lookout for Metrics (L4M) to Amazon Quickight to allow the building of visualizations.
 
 ### Lookout for Metrics Workshop
 
@@ -500,6 +515,9 @@ In this post, we demonstrate a preprocessing method to increase the size ratio o
 
 ---
 ## Amazon Textract
+
+\[Blog, 11/21\] [**Postprocessing with Amazon Textract: Multi-page table handling**](https://aws.amazon.com/blogs/machine-learning/postprocessing-with-amazon-textract-multi-page-table-handling/)
+Many developers expressed interest in merging Amazon Textract responses where tables exist across multiple pages. This post demonstrates how you can use the amazon-textract-response-parser utility to accomplish this and highlights a few tricks to optimize the process.
 
 \[Blog, 10/21\] [**Bring structure to diverse documents with Amazon Textract and transformer-based models on Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/bring-structure-to-diverse-documents-with-amazon-textract-and-transformer-based-models-on-amazon-sagemaker/)
 In this in-depth blog post, learn different ways to use Amazon Textract and Amazon SageMaker to automate especially challenging document analysis tasks.

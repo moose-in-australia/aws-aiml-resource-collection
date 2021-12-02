@@ -43,8 +43,11 @@ Training your machine learning (ML) model and serving predictions is usually not
 \[Blog, 10/21\] [**Enhance your machine learning development by using a modular architecture with Amazon SageMaker projects**](https://aws.amazon.com/blogs/machine-learning/enhance-your-machine-learning-development-by-using-a-modular-architecture-with-amazon-sagemaker-projects/)
 This post walks you through the implementation of a custom SageMaker project. We discuss how to do the following: Create a project with your resources, Understand the project lifecycle, View project resources, Create a Studio domain and deploy a product portfolio, Work with the project and run a data transformation and ingestion pipeline
 
+\[Blog, 10/21\] [**Build Custom SageMaker Project Templates – Best Practices**](https://aws.amazon.com/blogs/machine-learning/build-custom-sagemaker-project-templates-best-practices/)
+SageMaker Projects give organizations the ability to easily setup and standardize developer environments for data scientists and CI/CD systems for MLOps Engineers. This post describes how SageMaker Project templates can be customized to fit any organization’s use case.
+
 \[Blog, 10/21\] [**Industrializing an ML platform with Amazon SageMaker Studio**](https://towardsdatascience.com/industrializing-an-ml-platform-with-amazon-sagemaker-studio-91b597802afe)
-Overview of steps and considerations when setting up Amazon SageMaker Studio as your ML platform. Contains many links to other, more detailed resources.
+Overview of steps and considerations when setting up Amazon SageMaker Studio as your ML platform. Contains many links to other, more detailed resources. 
 
 \[Blog, 10/21\] [**Create a cross-account machine learning training and deployment environment with AWS Code Pipeline**](https://aws.amazon.com/blogs/machine-learning/create-a-cross-account-machine-learning-training-and-deployment-environment-with-aws-code-pipeline/)
 A CI/CD pipeline helps you automate steps in your ML applications and improves security, agility and resilience. In this post, learn how to set up the right cross-accounts IAM roles and trust relationships to create a cross-account pipeline while encrypting your central ML artifact store. Read this if you want to understand how to manually set up an environment similar to SageMaker Projects.
@@ -373,6 +376,9 @@ The Improving Forecast Accuracy with Machine Learning solution helps organizatio
 * [Code Sample](#fraud-detector-code-sample)
 
 ### Fraud Detector Blog
+
+\[Blog, 10/21\] [**Train models faster with an automated data profiler for Amazon Fraud Detector**](https://aws.amazon.com/blogs/machine-learning/train-models-faster-with-an-automated-data-profiler-for-amazon-fraud-detector/)
+In this post, we present an automated data profiler for Amazon Fraud Detector. It can generate an intuitive and comprehensive report of your dataset, which includes suggested Amazon Fraud Detector variable types for each variable in the dataset, and data quality issues that may potentially fail model training or hurt model performance. The data profiler also provides an option to reformat and transform the dataset to satisfy requirements in Amazon Fraud Detector, which can avoid some potential validation errors in model training.
 
 \[Blog, 09/21\] [**Manage your Amazon Fraud Detector resources in an automated and secure manner using AWS CloudFormation**](https://aws.amazon.com/blogs/machine-learning/manage-your-amazon-fraud-detector-resources-in-an-automated-and-secure-manner-using-aws-cloudformation/)
 With AWS CloudFormation, you can make changes to any number of Amazon Fraud Detector resources at once and easily repeat those changes across Regions and accounts with minimal additional effort. This post walks you through how to use AWS CloudFormation to create a stack of sample Amazon Fraud Detector resources and how to update that stack.

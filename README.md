@@ -301,6 +301,9 @@ Hands-on lab from ML model training to model compilation to edge device model de
 
 #### Other Blog
 
+\[Blog, 12/21\] **Create and manage Amazon EMR Clusters from SageMaker Studio to run interactive Spark and ML workloads** ([Part 1](https://aws.amazon.com/blogs/machine-learning/part-1-create-and-manage-amazon-emr-clusters-from-sagemaker-studio-to-run-interactive-spark-and-ml-workloads/)) ([Part 2](https://aws.amazon.com/blogs/machine-learning/part-2-create-and-manage-amazon-emr-clusters-from-sagemaker-studio-to-run-interactive-spark-and-ml-workloads/))
+We recently introduced the ability to visually browse and connect to Amazon EMR clusters right from the Studio notebook. Starting today, you can now monitor and debug your Spark jobs running on Amazon EMR from Studio notebooks with just a single click. Additionally, you can now discover, connect to, create, stop, and manage EMR clusters directly from Studio. We demonstrate these newly introduced capabilities in this two-part post.
+
 \[Blog, 11/21\] [**Run distributed hyperparameter and neural architecture tuning jobs with Syne Tune**](https://aws.amazon.com/blogs/machine-learning/run-distributed-hyperparameter-and-neural-architecture-tuning-jobs-with-syne-tune/)
 Today we announce the general availability of Syne Tune, an open-source Python library for large-scale distributed hyperparameter and neural architecture optimization. It provides implementations of several state-of-the-art global optimizers, such as Bayesian optimization, Hyperband, and population-based training. Additionally, it supports constrained and multi-objective optimization, and allows you to bring your own global optimization algorithm.
 

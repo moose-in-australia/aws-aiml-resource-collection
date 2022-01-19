@@ -14,6 +14,7 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
 - [Amazon Kendra](#amazon-kendra)
 - [Amazon Lex](#amazon-lex)
 - [Amazon Lookout for Metrics](#amazon-lookout-for-metrics)
+- [AWS Panorama](#aws-panorama)
 - [Amazon Personalize](#amazon-personalize)
 - [Amazon Rekognition](#amazon-rekognition)
 - [Amazon Textract](#amazon-textract)
@@ -483,6 +484,22 @@ The notebook generates all the necessary resources to bring your inference resul
 
 \[Workshop, 10/21\] [**Amazon Lookout for Metrics Workshop**](https://lookoutformetrics.workshop.aws/en/)
 This workshop guides participants through the steps of setting up and using Amazon Lookout for Metrics. It consists of two sections: backtesting on historical data, and generating readable alerts from anomalies. 
+
+---
+## AWS Panorama
+
+* [Blog](#panorama-blog)
+* [Video](#panorama-video)
+
+### Panorama Blog
+
+\[Blog, 11/21\] [**Deploy an Object-Detector Model at the Edge on AWS Panorama**](https://towardsdatascience.com/deploy-an-object-detector-model-at-the-edge-on-aws-panorama-9b80ea1dd03a)
+Learn how to deploy state-of-the-art computer vision models on AWS Panorama, a powerful edge device to realize online and cost-effective object detection.
+
+### Panorama Video
+
+\[Video, 11/21\] [**On Grid: AWS Panorama - Part I, unboxing, review and guided setup**](https://www.youtube.com/watch?v=xRxAWClUTZc&t=84s)
+A short video showing the AWS Panorama device, with a longer part II going into more detail. The video shows the unboxing and setup of the device.
 
 ---
 ## Amazon Personalize

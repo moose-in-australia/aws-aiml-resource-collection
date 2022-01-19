@@ -380,6 +380,9 @@ The Improving Forecast Accuracy with Machine Learning solution helps organizatio
 
 ### Fraud Detector Blog
 
+\[Blog, 10/21\] [**Build and visualize a real-time fraud prevention system using Amazon Fraud Detector**](https://aws.amazon.com/blogs/machine-learning/build-and-visualize-a-real-time-fraud-prevention-system-using-amazon-fraud-detector/)
+The solution in this post provides two use cases that are built on top of a Transaction Fraud Insights model. The first use case demonstrates fraud prevention by identifying fraudulent transactions, flagging them to be blocked, and sending an alert notification. The second, writes all transactions in real time to Amazon OpenSearch Service, this enables real-time transaction reporting using OpenSearch Dashboards.
+
 \[Blog, 10/21\] [**Train models faster with an automated data profiler for Amazon Fraud Detector**](https://aws.amazon.com/blogs/machine-learning/train-models-faster-with-an-automated-data-profiler-for-amazon-fraud-detector/)
 In this post, we present an automated data profiler for Amazon Fraud Detector. It can generate an intuitive and comprehensive report of your dataset, which includes suggested Amazon Fraud Detector variable types for each variable in the dataset, and data quality issues that may potentially fail model training or hurt model performance. The data profiler also provides an option to reformat and transform the dataset to satisfy requirements in Amazon Fraud Detector, which can avoid some potential validation errors in model training.
 
@@ -565,6 +568,12 @@ In many use cases, you need to extract and analyze documents with various visual
 * [Video](#transcribe-video)
 
 ### Transcribe Blog
+
+\[Blog, 12/21\] [**Live call analytics for your contact center with Amazon language AI services**](https://aws.amazon.com/blogs/machine-learning/live-call-analytics-for-your-contact-center-with-amazon-language-ai-services/)
+Amazon Machine Learning (ML) services like Amazon Transcribe and Amazon Comprehend provide feature-rich APIs that you can use to transcribe and extract insights from your contact center audio at scale. Although you could build your own custom call analytics solution using these services, that requires time and resources. In this post, we introduce our new sample solution for live call analytics.
+
+\[Blog, 12/21\] [**Post call analytics for your contact center with Amazon language AI services**](https://aws.amazon.com/blogs/machine-learning/post-call-analytics-for-your-contact-center-with-amazon-language-ai-services/)
+Amazon Machine Learning (ML) services like Amazon Transcribe Call Analytics and Amazon Comprehend provide feature-rich APIs that you can use to transcribe and extract insights from your contact center audio recordings at scale. Although you could build your own custom call analytics solution using these services, that requires time and resources. In this post, we introduce our new sample solution for post call analytics.
 
 \[Blog, 09/21\] [**Boost transcription accuracy of class lectures with custom language models for Amazon Transcribe**](https://aws.amazon.com/blogs/machine-learning/transcribe-class-lectures-accurately-using-amazon-transcribe-with-custom-language-models/)
 When transcribing content that is more specialized or domain-specific such as biology, Amazon Transcribe offers custom language models (CLM). One common problem we see is the difficulty in accurately transcribing certain subjects. In this post, we show how you can harness readily available content to train a CLM in Amazon Transcribe and boost the transcription accuracy on scientific subjects like biology.

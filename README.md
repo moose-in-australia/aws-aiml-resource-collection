@@ -601,7 +601,7 @@ In many use cases, you need to extract and analyze documents with various visual
 
 ### Transcribe Blog
 
-\[Blog, 12/21\] [**Live call analytics for your contact center with Amazon language AI services**](https://aws.amazon.com/blogs/machine-learning/live-call-analytics-for-your-contact-center-with-amazon-language-ai-services/)
+\[Blog, 02/22\] [**Live call analytics for your contact center with Amazon language AI services**](https://aws.amazon.com/blogs/machine-learning/live-call-analytics-for-your-contact-center-with-amazon-language-ai-services/)
 Amazon Machine Learning (ML) services like Amazon Transcribe and Amazon Comprehend provide feature-rich APIs that you can use to transcribe and extract insights from your contact center audio at scale. Although you could build your own custom call analytics solution using these services, that requires time and resources. In this post, we introduce our new sample solution for live call analytics.
 
 \[Blog, 12/21\] [**Post call analytics for your contact center with Amazon language AI services**](https://aws.amazon.com/blogs/machine-learning/post-call-analytics-for-your-contact-center-with-amazon-language-ai-services/)
@@ -617,6 +617,12 @@ These posts are about redacting PII in Amazon Transcribe and demonstrates an app
 We’re happy to announce that Amazon Transcribe now allows you to enable and configure partial results stabilization for streaming audio transcriptions. Amazon Transcribe is an automatic speech recognition (ASR) service that enables developers to add real-time speech-to-text capabilities into their applications for on-demand and streaming content. Instead of waiting for an entire sentence to be transcribed, you can now control the stabilization level of partial results. Transcribe offers 3 settings: High, Medium and Low. Setting the stabilization “High” allows a greater portion of the partial results to be fixed with only the last few words changing during the transcription process. This feature helps you have more flexibility in your streaming transcription workflows based on the user experience you want to create.
 
 ### Transcribe Video
+
+\[Video, 01/22\] [**Using Custom Language Models (CLM) to supercharge transcription accuracy**](https://www.youtube.com/watch?v=iTkJoIqRrPU)
+Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for you to add speech-to-text capabilities to your applications. Unlike the Custom Vocabulary feature, which enhances speech recognition for a discrete list of out-of-lexicon terms, CLM allows you to leverage pre-existing data to build a custom speech engine tailored for your transcription use case. Amazon Transcribe customers who operate in domains as diverse as law, finance, hospitality, insurance, and media all stand to benefit.
+
+\[Video, 10/21\] [**Amazon Transcribe video snacks: Use content redaction to identify & redact PII**](https://www.youtube.com/watch?v=4H8dQoeLkyM)
+Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy to add speech to text capabilities to any application. Amazon Transcribe can help customers identify and redact sensitive personally identifiable information (PII) from transcripts in the supported languages. This provides customers with a toolkit to protect sensitive user data and comply with local privacy laws & regulations. In this video, we'll be seeing this feature in action for both streaming and batch transcriptions.
 
 \[Video, 10/21\] [**Amazon Transcribe video snacks: Using vocabulary filters**](https://www.youtube.com/watch?v=TcpSqbr0FnI)
 Amazon Transcribe is a automatic speech recognition service that can be used when you have audio and video that contains speech you want to convert to text. You can mask, remove, or tag words you don't want in your transcription results with vocabulary filtering. For example, you can use vocabulary filtering to prevent the display of offensive or profane terms. In the demo, I’ll customize Transcribe to mask swear words that I recently encountered in a famous play written by William Shakespeare.

@@ -124,6 +124,9 @@ A step-by-step guide on creating a custom data science environment for SageMaker
 
 #### MLOps Code Sample
 
+\[Code Sample, 02/22\] [**MLflow (Open Machine Learning Platform) on AWS**](https://github.com/aws-samples/aws-mlflow-sagemaker-cdk)
+In this project, we show how to deploy MLflow on AWS Fargate with basic authentication and use it during your ML project with Amazon SageMaker.
+
 \[Code Sample, 02/21\] [**SageMaker custom studio image providing magic cells for a simplified experience in a notebook**](https://github.com/aws-samples/sagemaker-studio-notebook-magic-cell)
 This solution provides a magic cell for a Jupyter Notebook to simplify the SageMaker training and SageMaker processing function by customizing a kernel and using Bring-Your-Own Image in SageMaker Studio.
 
@@ -164,6 +167,9 @@ Workshop to launch Amazon SageMaker Studio domain using AWS Service Catalog and 
 
 \[Blog, 01/22\] [**Secure access to Amazon SageMaker Studio with AWS SSO and a SAML application**](https://aws.amazon.com/blogs/machine-learning/secure-access-to-amazon-sagemaker-studio-with-aws-sso-and-a-saml-application/)
 A popular use case is to restrict access to the Studio IDE to only users from inside a specified network CIDR range or a designated VPC. Many customers use AWS SSO to enable centralized workforce identity control and provide a consistent user sign-in experience. This post shows how to implement this use case while keeping AWS SSO capabilities to access Studio.
+
+\[Blog, 11/21\] [**Implementing SaaS Tenant Isolation Using Amazon SageMaker Endpoints and IAM**](https://aws.amazon.com/blogs/apn/implementing-saas-tenant-isolation-using-amazon-sagemaker-endpoints-and-iam/)
+In this post, we’ll focus on how tenant isolation of machine learning services can be achieved using AWS Identity and Access Management (IAM). We’ll look at how the integration between IAM, Amazon SageMaker, and many other AWS services provide developers with a rich set of mechanisms that can be applied to realize tenant isolation goals.
 
 \[Blog, 08/21\] [**Access an Amazon SageMaker Studio notebook from a corporate network**](https://aws.amazon.com/blogs/machine-learning/access-an-amazon-sagemaker-studio-notebook-from-a-corporate-network/)
 Presigned URLs are commonly used to grant access to your Amazon SageMaker Studio domain to users within your organization. The use of public DNS for presigned URLs has a threat vector of undesired exposure. In this post, you can learn how to access a Studio notebook from a corporate network without traversing the internet to resolve the presigned URL domain name.
@@ -316,6 +322,12 @@ Hands-on lab from ML model training to model compilation to edge device model de
 
 \[Blog, 01/22\] [**Label text for aspect-based sentiment analysis using SageMaker Ground Truth**](https://aws.amazon.com/blogs/machine-learning/labeling-text-for-aspect-based-sentiment-analysis-using-sagemaker-ground-truth/)
 The Amazon Machine Learning Solutions Lab (MLSL) recently created a tool for annotating text with named-entity recognition (NER) and relationship labels using Amazon SageMaker Ground Truth. Annotators use this tool to label text with named entities and link their relationships, thereby building a dataset for training state-of-the-art natural language processing (NLP) machine learning (ML) models. Most importantly, this is now publicly available to all AWS customers.
+
+\[Blog, 12/21\] [**Use deep learning frameworks natively in Amazon SageMaker Processing**](https://aws.amazon.com/blogs/machine-learning/use-deep-learning-frameworks-natively-in-amazon-sagemaker-processing/)
+This post shows you how SageMaker Processing has simplified running machine learning (ML) preprocessing and postprocessing tasks with popular frameworks such as PyTorch, TensorFlow, Hugging Face, MXNet, and XGBoost.
+
+\[Blog, 12/21\] [**Build GAN with PyTorch and Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/build-gan-with-pytorch-and-amazon-sagemaker/)
+This post walks you through building your first GAN model using Amazon SageMaker. This is a journey of learning GAN from the perspective of practical engineering experiences, as well as opening a new AI/ML domain of generative models.
 
 \[Blog, 12/21\] **Create and manage Amazon EMR Clusters from SageMaker Studio to run interactive Spark and ML workloads** ([Part 1](https://aws.amazon.com/blogs/machine-learning/part-1-create-and-manage-amazon-emr-clusters-from-sagemaker-studio-to-run-interactive-spark-and-ml-workloads/)) ([Part 2](https://aws.amazon.com/blogs/machine-learning/part-2-create-and-manage-amazon-emr-clusters-from-sagemaker-studio-to-run-interactive-spark-and-ml-workloads/))
 We recently introduced the ability to visually browse and connect to Amazon EMR clusters right from the Studio notebook. Starting today, you can now monitor and debug your Spark jobs running on Amazon EMR from Studio notebooks with just a single click. Additionally, you can now discover, connect to, create, stop, and manage EMR clusters directly from Studio. We demonstrate these newly introduced capabilities in this two-part post.

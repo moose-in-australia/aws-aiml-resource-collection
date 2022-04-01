@@ -382,6 +382,25 @@ In this post, I show how API Gateway can be used to front an Amazon SageMaker in
 An Amazon SageMaker Immersion Day provides our customers with hands-on experience to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models. It is specifically designed to help us accelerate a customer opportunity for Machine-learning workload in AWS.
 
 ---
+## Amazon Comprehend
+
+* [Blog](#comprehend-blog)
+* [Workshop](#comprehend-workshop)
+
+### Comprehend Blog
+
+\[Blog, 03/22\] [**Extract granular sentiment in text with Amazon Comprehend Targeted Sentiment**](https://aws.amazon.com/blogs/machine-learning/extract-granular-sentiment-in-text-with-amazon-comprehend-targeted-sentiment/)
+This post provides an overview of how you can get started with Amazon Comprehend targeted sentiment, demonstrates what you can do with the output, and walks through three common targeted sentiment use cases.
+
+### Comprehend Workshop
+
+\[Workshop, 03/22\] [**Intelligent Document Processing with AWS AI Services**](https://catalog.us-east-1.prod.workshops.aws/workshops/c2af04b2-54ab-4b3d-be73-c7dd39074b20/en-US/)
+In this workshop, we will dive deep into each of the phases of an IDP workflow with solutions on how to implement each step using AWS AI services. With the hands-on labs, you will familiarize yourself with AWS AI services such as Amazon Textract, Amazon Comprehend, and Amazon Augmented AI (A2I). You will learn how these services can work together to help you build an end-to-end IDP solution.
+
+\[Workshop, 01/22\] [**Comprehend Immersion Day**](https://catalog.us-east-1.prod.workshops.aws/workshops/b54ae619-4779-409c-9bde-6e9c00edcf0f/en-US/)
+This Comprehend Immersion Day provides customers with hands-on experience with Amazon Comprehend demonstrating how they can build natural language processing (NLP) use cases, and is specifically designed to help us accelerate a customer opportunity.
+
+---
 ## Amazon Forecast
 
 * [Blog](#forecast-blog)
@@ -467,6 +486,9 @@ A step-by-step walkthrough of basic Kendra functionality with explanations.
 
 ### Lex Blog
 
+\[Blog, 03/22\] [**Enable conversational chatbots for telephony using Amazon Lex and the Amazon Chime SDK**](https://aws.amazon.com/blogs/machine-learning/enable-conversational-chatbots-for-telephony-using-amazon-lex-and-the-amazon-chime-sdk/)
+In this post, we teach you how to build a conversational IVR system for a fictitious travel service that accepts reservations over the phone using Amazon Lex.
+
 \[Blog, 11/21\] [**Monitor operational metrics for your Amazon Lex chatbot**](https://aws.amazon.com/blogs/machine-learning/monitor-operational-metrics-for-your-amazon-lex-chatbot/)
 Designing a bot and deploying it in production is only the beginning of the journey. You want to analyze the bot’s performance over time to gather insights that can help you adapt the bot to your customers’ needs. A deeper understanding of key metrics such as trending topics, top utterances, missed utterances, conversation flow patterns, and customer sentiment help you enhance your bot to better engage with customers and improve their overall satisfaction. It then becomes crucial to have a conversational analytics dashboard to gain these insights from a single place. In this post, we look at deploying an analytics dashboard solution for your Amazon Lex bot. 
 
@@ -503,6 +525,9 @@ Learn how to set up anomaly detection within your operational metrics. This post
 This post shows you how to use an integrated solution with Amazon Lookout for Metrics and Amazon Kinesis Data Analytics Studio (among other AWS services) to break these barriers by quickly and easily ingesting streaming data, aggregating and curating it, and subsequently detecting anomalies in the key performance indicators of your interest.
 
 ### Lookout for Metrics Code Sample
+
+\[Code Sample, 02/22\] [**Amazon Lookout for Metrics Custom Connectors**](https://github.com/aws-samples/amazon-lookout-for-metrics-custom-connectors)
+This repository serves as a guide and reference for reaching out to complex databases, performing desired ETL processes on data, then streaming it easily into S3 for use with L4M.
 
 \[Code Sample, 10/21\] [**Visualize your Lookout for Metrics on QuickSight**](https://github.com/aws-samples/amazon-lookout-for-metrics-samples/blob/main/getting_started/5.UseQuicksightToVisualizeL4M.ipynb)
 The notebook generates all the necessary resources to bring your inference results and live data from Amazon Lookout for Metrics (L4M) to Amazon Quickight to allow the building of visualizations.
@@ -578,6 +603,9 @@ This Immersion Day offers a deep-dive on Amazon Personalize, with a collection d
 ---
 ## Amazon Rekognition
 
+\[Blog, 03/22\] [**Computer vision using synthetic datasets with Amazon Rekognition Custom Labels and Dassault Systèmes 3DEXCITE**](https://aws.amazon.com/blogs/machine-learning/computer-vision-using-synthetic-datasets-with-amazon-rekognition-custom-labels-and-dassault-systemes-3dexcite/)
+In this post, we present a novel approach where highly specialized computer vision systems are created from design and CAD files. We start with the creation of visually correct digital twins and the generation of synthetic labeled images. Then we push these images to Amazon Rekognition Custom Labels to train a custom object detection model. By using existing intellectual property with software, we’re making computer vision affordable and relevant to a variety of industrial contexts.
+
 \[Blog, 09/21\] [**Calculate inference units for an Amazon Rekognition Custom Labels model**](https://aws.amazon.com/blogs/machine-learning/calculate-inference-units-for-an-amazon-rekognition-custom-labels-model/)
 Determining the number of inference units (IUs) required to optimally run inference on your Amazon Rekognition Custom Labels model can be tricky. In this post, learn how to calculate the IUs you need to meet your workload performance requirements at the lowest possible cost.
 
@@ -593,6 +621,14 @@ In this post, we demonstrate a preprocessing method to increase the size ratio o
 ---
 ## Amazon Textract
 
+* [Blog](#textract-blog)
+* [Workshop](#textract-workshop)
+
+### Textract Blog
+
+\[Blog, 03/22\] [**Automate digitization of transactional documents with human oversight using Amazon Textract and Amazon A2I**](https://aws.amazon.com/blogs/machine-learning/automate-digitization-of-transactional-documents-with-human-oversight-using-amazon-textract-and-amazon-a2i/)
+In this post, we present a solution for digitizing transactional documents using Amazon Textract and incorporate a human review using Amazon Augmented AI (A2I). Our reference solution uses a highly resilient pipeline to coordinate the various document processing stages.
+
 \[Blog, 11/21\] [**Postprocessing with Amazon Textract: Multi-page table handling**](https://aws.amazon.com/blogs/machine-learning/postprocessing-with-amazon-textract-multi-page-table-handling/)
 Many developers expressed interest in merging Amazon Textract responses where tables exist across multiple pages. This post demonstrates how you can use the amazon-textract-response-parser utility to accomplish this and highlights a few tricks to optimize the process.
 
@@ -604,6 +640,11 @@ Text extraction from newspapers is difficult because of different layouts, struc
 
 \[Blog, 03/21\] [**PDF document pre-processing with Amazon Textract: Visuals detection and removal**](https://aws.amazon.com/blogs/machine-learning/process-text-and-images-in-pdf-documents-with-amazon-textract/)
 In many use cases, you need to extract and analyze documents with various visuals, such as logos, photos, and charts. These visuals contain embedded text that convolutes Amazon Textract output or isn’t required for your downstream process. For example, many real estate evaluation forms or documents contain pictures of houses or trends of historical prices. This information isn’t needed in downstream processes, and you have to remove it before using Amazon Textract to analyze the document. In this post, we illustrate two effective methods to remove these visuals as part of your preprocessing.
+
+### Textract Workshop
+
+\[Workshop, 03/22\] [**Intelligent Document Processing with AWS AI Services**](https://catalog.us-east-1.prod.workshops.aws/workshops/c2af04b2-54ab-4b3d-be73-c7dd39074b20/en-US/)
+In this workshop, we will dive deep into each of the phases of an IDP workflow with solutions on how to implement each step using AWS AI services. With the hands-on labs, you will familiarize yourself with AWS AI services such as Amazon Textract, Amazon Comprehend, and Amazon Augmented AI (A2I). You will learn how these services can work together to help you build an end-to-end IDP solution.
 
 ---
 ## Amazon Transcribe
@@ -650,6 +691,9 @@ Amazon Transcribe is a automatic speech recognition service that can be used whe
 * [Video](#translate-video)
 
 ### Translate Blog
+
+\[Blog, 02/22\] [**Apply profanity masking in Amazon Translate**](https://aws.amazon.com/blogs/machine-learning/apply-profanity-masking-in-amazon-translate/)
+Amazon Translate is a neural machine translation service that delivers fast, high-quality, affordable, and customizable language translation. This post shows how you can mask profane words and phrases with a grawlix string (“?\$#@$”).
 
 \[Blog, 11/21\] [**Customize Amazon Translate output to meet your domain and organization specific vocabulary**](https://aws.amazon.com/blogs/machine-learning/customize-amazon-translate-output-to-meet-your-domain-and-organization-specific-vocabulary/)
 When you translate from one language to another, you want your machine translation to be accurate, fluent, and most importantly contextual. Customization is key in keeping your machine translation contextual. Amazon Translate provides multiple capabilities for customization to achieve the best machine translation. One such capability is custom terminology. Custom terminology enables you to customize your translation output such that your domain and organization specific vocabulary such as brand names, character names, model names, and other unique content (named entities) are translated exactly the way you need. In this post, we walk you through the step-by-step process of how to use custom terminology and get a customized machine translated output securely.

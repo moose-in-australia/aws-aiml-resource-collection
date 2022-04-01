@@ -20,6 +20,7 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
 - [Amazon Textract](#amazon-textract)
 - [Amazon Transcribe](#amazon-transcribe)
 - [Amazon Translate](#amazon-translate)
+- [Sustainability](#sustainability)
 
 ---
 ## Amazon SageMaker
@@ -34,6 +35,15 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
 * [Workshop](#mlops-workshop)
 
 #### MLOps Blog
+
+\[Blog, 02/22\] [**Implement MLOps using AWS pre-trained AI Services with AWS Organizations**](https://aws.amazon.com/blogs/machine-learning/implement-mlops-using-aws-pre-trained-ai-services-with-aws-organizations/)
+The AWS Machine Learning Operations (MLOps) framework is an iterative and repetitive process for evolving AI models over time. Like DevOps, practitioners gain efficiencies promoting their artifacts through various environments (such as quality assurance, integration, and production) for quality control. In parallel, customers rapidly adopt multi-account strategies through AWS Organizations and AWS Control Tower to create secure, isolated environments. This combination can introduce challenges for implementing MLOps with AWS pre-trained AI Services, such as Amazon Rekognition Custom Labels. This post discusses design patterns for reducing that complexity while still maintaining security best practices.
+
+\[Blog, 03/22\] [**Enhance your SaaS offering with a data science workbench powered by Amazon SageMaker Studio**](https://aws.amazon.com/blogs/machine-learning/enhance-your-saas-offering-with-a-data-science-workbench-powered-by-amazon-sagemaker-studio/)
+Many software as a service (SaaS) providers across various industries are adding machine learning (ML) and artificial intelligence (AI) capabilities to their SaaS offerings to address use cases like personalized product recommendation, fraud detection, and accurate demand protection. Some SaaS providers want to build such ML and AI capabilities themselves and deploy them in a multi-tenant environment. However, others who have more advanced customers want to allow their customers to build ML models themselves and use them to augment the SaaS with additional capabilities or override the default implementation of certain functionality. In this post, we discuss how to enhance your SaaS offering with a data science workbench powered by Amazon SageMaker Studio.
+
+\[Blog, 01/22\] [**Detect NLP data drift using custom Amazon SageMaker Model Monitor**](https://aws.amazon.com/blogs/machine-learning/detect-nlp-data-drift-using-custom-amazon-sagemaker-model-monitor/)
+In this post, we discuss the types of data quality drift that are applicable to text data. We also present an approach to detecting data drift in text data using Model Monitor.
 
 \[Blog, 01/22\] [**Take advantage of advanced deployment strategies using Amazon SageMaker deployment guardrails**](https://aws.amazon.com/blogs/machine-learning/take-advantage-of-advanced-deployment-strategies-using-amazon-sagemaker-deployment-guardrails/)
 In this post, we show you how to use the new deployment guardrail capabilities to deploy your model versions using both a canary and linear deployment strategy.
@@ -145,6 +155,10 @@ MLOps practices help data scientists and IT operations professionals collaborate
 
 #### MLOps Whitepaper
 
+\[Whitepaper, 09/21\] [**Machine Learning Best Practices
+for Public Sector Organizations**](https://d1.awsstatic.com/whitepapers/machine-learning-best-practices-for-public-sector-organizations.pdf)
+This whitepaper outlines some of the challenges for US public sector agencies in adoption and implementation of ML, and provides best practices to address these challenges. The target audience for this whitepaper includes executive leaders and agency IT Directors. 
+
 \[Whitepaper, 05/21\] [**Build a Secure Enterprise Machine Learning Platform on AWS**](https://docs.aws.amazon.com/whitepapers/latest/build-secure-enterprise-ml-platform/build-secure-enterprise-ml-platform.html?did)
 This whitepaper helps cloud engineers, security engineers, Machine Learning Ops (MLOps) engineers, and data scientists understand the various components of building a secure enterprise machine learning (ML) platform. It provides prescriptive guidance on building a secure ML platform on Amazon Web Services (AWS).
 
@@ -164,6 +178,9 @@ Workshop to launch Amazon SageMaker Studio domain using AWS Service Catalog and 
 * [Workshop](#security-workshop)
 
 #### Security Blog
+
+\[Blog, 03/22\] [**Secure Amazon S3 access for isolated Amazon SageMaker notebook instances**](https://aws.amazon.com/blogs/machine-learning/secure-amazon-s3-access-for-isolated-amazon-sagemaker-notebook-instances/)
+In this post, we will demonstrate how to securely launch notebook instances in a private subnet of an Amazon Virtual Private Cloud (Amazon VPC), with internet access disabled, and to securely connect to Amazon Simple Storage Service (Amazon S3) using VPC endpoints. This post is for network and security architects that support decentralized data science teams on AWS.
 
 \[Blog, 01/22\] [**Secure access to Amazon SageMaker Studio with AWS SSO and a SAML application**](https://aws.amazon.com/blogs/machine-learning/secure-access-to-amazon-sagemaker-studio-with-aws-sso-and-a-saml-application/)
 A popular use case is to restrict access to the Studio IDE to only users from inside a specified network CIDR range or a designated VPC. Many customers use AWS SSO to enable centralized workforce identity control and provide a consistent user sign-in experience. This post shows how to implement this use case while keeping AWS SSO capabilities to access Studio.
@@ -236,6 +253,9 @@ This workshop walks the participant through the process of building and using se
 
 #### Cost Control Blog
 
+\[Blog, 02/22\] [**Reduce costs and complexity of ML preprocessing with Amazon S3 Object Lambda**](https://aws.amazon.com/blogs/machine-learning/reduce-costs-and-complexity-of-ml-preprocessing-with-amazon-s3-object-lambda/)
+This post demonstrates a design pattern for reducing costs, complexity, and centrally managing preprocessing. It uses the concrete example of image processing, though the approach broadly applies to any workload. The economic benefits are also most pronounced when the transformation step doesn’t require GPU, but the AI algorithm does.
+
 \[Blog, 06/21\] [**Save costs by automatically shutting down idle resources within Amazon SageMaker Studio**](https://aws.amazon.com/blogs/machine-learning/save-costs-by-automatically-shutting-down-idle-resources-within-amazon-sagemaker-studio/)
 In this post, learn how to detect and stop idle resources that are incurring costs within Amazon SageMaker Studio and Amazon SageMaker Data Wrangler using an auto-shutdown Jupyter extension.
 
@@ -292,6 +312,9 @@ In this post, we use Amazon SageMaker Clarify to provide explanations of individ
 
 #### Edge Blog
 
+\[Blog, 03/22\] [**Anomaly detection with Amazon SageMaker Edge Manager using AWS IoT Greengrass V2**](https://aws.amazon.com/blogs/machine-learning/anomaly-detection-with-amazon-sagemaker-edge-manager-using-aws-iot-greengrass-v2/)
+This post shows how to train and deploy an anomaly detection ML model to a simulated fleet of wind turbines at the edge using features of SageMaker and AWS IoT Greengrass V2.
+
 \[Blog, 09/21\] [**Build machine learning at the edge applications using Amazon SageMaker Edge Manager and AWS IoT Greengrass V2**](https://aws.amazon.com/blogs/machine-learning/build-machine-learning-at-the-edge-applications-using-amazon-sagemaker-edge-manager-and-aws-iot-greengrass-v2/)
 Running machine learning (ML) models at the edge can be a powerful enhancement for Internet of Things (IoT) solutions that must perform inference without a constant connection back to the cloud. Learn how to integrate Amazon SageMaker Edge Manager and AWS IoT Greengrass to build robust ML applications that are targeted specifically for edge use cases.
 
@@ -319,6 +342,15 @@ Hands-on lab from ML model training to model compilation to edge device model de
 * [Workshop](#other-workshop)
 
 #### Other Blog
+
+\[Blog, 03/22\] [**Local Mode Training and Inference in SageMaker Studio**](https://medium.com/@sam.edwards1976/local-mode-training-and-inference-in-sagemaker-studio-3062d10ae603)
+In SageMaker, ML jobs are managed and run by AWS, which is great for production as you do not have to worry about managing the underlying resources and it is easy to scale. However, when you are in development stage, running a job on SageMaker, means you have less access to the job resources. Which makes it less productive from debug and troubleshooting perspectives. This is where SageMaker Python SDK ‘Local Mode’ shines. ‘Local Mode’ allows you replicate same job on your local development environment and therefore have full access to the job resources while you are in development stage. It pulls images from ECR and setup containers to run in your local environment just as it would be done in SageMaker.
+
+\[Blog, 03/22\] [**Amazon SageMaker JumpStart models and algorithms now available via API**](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-models-and-algorithms-now-available-via-api/)
+Previously, all JumpStart content was available only through Amazon SageMaker Studio, which provides a user-friendly graphical interface to interact with the feature. Today, we’re excited to announce the launch of easy-to-use JumpStart APIs as an extension of the SageMaker Python SDK. These APIs allow you to programmatically deploy and fine-tune a vast selection of JumpStart-supported pre-trained models on your own datasets. 
+
+\[Blog, 02/22\] [**Choose the best data source for your Amazon SageMaker training job**](https://aws.amazon.com/blogs/machine-learning/choose-the-best-data-source-for-your-amazon-sagemaker-training-job/)
+This post helps you choose the best data source for your SageMaker ML training use case. We introduce the data sources options that SageMaker training jobs support natively. For each data source and input mode, we outline its ease of use, performance characteristics, cost, and limitations.
 
 \[Blog, 01/22\] [**Label text for aspect-based sentiment analysis using SageMaker Ground Truth**](https://aws.amazon.com/blogs/machine-learning/labeling-text-for-aspect-based-sentiment-analysis-using-sagemaker-ground-truth/)
 The Amazon Machine Learning Solutions Lab (MLSL) recently created a tool for annotating text with named-entity recognition (NER) and relationship labels using Amazon SageMaker Ground Truth. Annotators use this tool to label text with named entities and link their relationships, thereby building a dataset for training state-of-the-art natural language processing (NLP) machine learning (ML) models. Most importantly, this is now publicly available to all AWS customers.
@@ -375,6 +407,9 @@ In this post, we show you how to deploy a PyTorch YOLOv4 model on a SageMaker ML
 In this post, I show how API Gateway can be used to front an Amazon SageMaker inference endpoint as (part of) a REST API, by making use of an API Gateway feature called mapping templates. This feature makes it possible for the REST API to be integrated directly with an Amazon SageMaker runtime endpoint, thereby avoiding the use of any intermediate compute resource (such as AWS Lambda or Amazon ECS containers) to invoke the endpoint. The result is a solution that is simpler, faster, and cheaper to run.
 
 #### Other Workshop
+
+\[Workshop, 01/22\] [**Amazon SageMaker Canvas Immersion Day**](https://catalog.us-east-1.prod.workshops.aws/workshops/80ba0ea5-7cf9-4b8c-9d3f-1cd988b6c071/en-US/)
+The Immersion Day for Amazon SageMaker Canvas is a self-paced or instructor-led lab that allows customers and partners to enable themselves or other into using no-code Machine Learning and Amazon SageMaker Canvas to solve real-world challenges based on publicly available datasets. 
 
 \[Workshop, 04/21\] **Amazon Sagemaker Immersion Day**
 \[[Website](https://sagemaker-immersionday.workshop.aws/)\]
@@ -707,3 +742,9 @@ This project contains source code and supporting files for a serverless pipeline
 
 \[Video, 03/21\] [**Amazon Translate | Deep Dive Video Series**](https://www.youtube.com/playlist?list=PLhr1KZpdzukePPoSt1BZUNYQ6r5BdNm-1)
 A collection of videos covering the functionality of Amazon Translate and several solutions addressing specific use cases. 
+
+---
+## Sustainability
+
+\[Blog, 02/22\] **Optimize AI/ML workloads for sustainability ([Part 1](https://aws.amazon.com/blogs/architecture/optimize-ai-ml-workloads-for-sustainability-part-1-identify-business-goals-validate-ml-use-and-process-data/)) ([Part 2](https://aws.amazon.com/blogs/architecture/optimize-ai-ml-workloads-for-sustainability-part-2-model-development/))**
+In this series of three blog posts, we’ll provide guidance from the Sustainability Pillar of the AWS Well-Architected Framework to reduce the carbon footprint of your AI/ML workloads.

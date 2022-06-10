@@ -36,6 +36,18 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
 
 #### MLOps Blog
 
+\[Blog, 06/22\] [**Automate vending Amazon SageMaker notebooks with Amazon EventBridge and AWS Lambda**](https://aws.amazon.com/blogs/machine-learning/automate-vending-amazon-sagemaker-notebooks-with-amazon-eventbridge-and-aws-lambda/)
+This post demonstrates how to centralize the management of SageMaker instance notebooks using AWS services including AWS CloudFormation, AWS Serverless Application Model (AWS SAM), AWS Service Catalog, Amazon EventBridge, AWS Systems Manager Parameter Store, Amazon API Gateway, and AWS Lambda. We walk through how to use these AWS services to automate the process of vending SageMaker notebooks to end-users.
+
+\[Blog, 06/22\] [**Control access to Amazon SageMaker Feature Store offline using AWS Lake Formation**](https://aws.amazon.com/blogs/machine-learning/control-access-to-amazon-sagemaker-feature-store-offline-using-aws-lake-formation/)
+In this post, we provide an overview of how to implement granular access control to feature groups and features stored in an offline feature store using Amazon SageMaker Feature Store and AWS Lake Formation.
+
+\[Blog, 05/22\] [**How to Create Reusable R Containers for SageMaker Jobs**](https://towardsdatascience.com/how-to-create-reusable-r-containers-for-sagemaker-jobs-a3d481daf5cd)
+SageMaker is famous for its flexibility and python support but it is not always straightforward to use for other programming languages. This guide can help your customers create reusable R containers for all their R needs. 
+
+\[Blog, 04/22\] **How NatWest Group built a scalable, secure, and sustainable MLOps platform [(Part 1)](https://aws.amazon.com/blogs/machine-learning/part-1-how-natwest-group-built-a-scalable-secure-and-sustainable-mlops-platform/) [(Part 2)](https://aws.amazon.com/blogs/machine-learning/part-2-how-natwest-group-built-a-secure-compliant-self-service-mlops-platform-using-aws-service-catalog-and-amazon-sagemaker/) [(Part 3)](https://aws.amazon.com/blogs/machine-learning/part-3-how-natwest-group-built-auditable-reproducible-and-explainable-ml-models-with-amazon-sagemaker/) [(Part 4)](https://aws.amazon.com/blogs/machine-learning/part-4-how-natwest-group-migrated-ml-models-to-amazon-sagemaker-architectures/)**
+This is a four-part series detailing how NatWest Group, a major financial services institution, partnered with AWS to build a scalable, secure, and sustainable machine learning operations (MLOps) platform. 
+
 \[Blog, 02/22\] [**Implement MLOps using AWS pre-trained AI Services with AWS Organizations**](https://aws.amazon.com/blogs/machine-learning/implement-mlops-using-aws-pre-trained-ai-services-with-aws-organizations/)
 The AWS Machine Learning Operations (MLOps) framework is an iterative and repetitive process for evolving AI models over time. Like DevOps, practitioners gain efficiencies promoting their artifacts through various environments (such as quality assurance, integration, and production) for quality control. In parallel, customers rapidly adopt multi-account strategies through AWS Organizations and AWS Control Tower to create secure, isolated environments. This combination can introduce challenges for implementing MLOps with AWS pre-trained AI Services, such as Amazon Rekognition Custom Labels. This post discusses design patterns for reducing that complexity while still maintaining security best practices.
 
@@ -179,6 +191,12 @@ Workshop to launch Amazon SageMaker Studio domain using AWS Service Catalog and 
 
 #### Security Blog
 
+\[Blog, 06/22\] [**Amazon SageMaker Notebook Instances now support configuring and restricting IMDS versions**](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebook-instances-now-support-configuring-and-restricting-imds-versions/)
+In this post, we show you how to configure your SageMaker notebooks with IMDSv2 only support. We also share the support plan for IMDSv1, and how you can enforce IMDSv2 on your notebooks.
+
+\[Blog, 04/22\] [**Secure AWS CodeArtifact access for isolated Amazon SageMaker notebook instances**](https://aws.amazon.com/blogs/machine-learning/secure-aws-codeartifact-access-for-isolated-amazon-sagemaker-notebook-instances/)
+In this post, we demonstrate how to securely connect to AWS CodeArtifact from an Internet-disabled SageMaker Notebook Instance. This post is for network and security architects that support decentralized data science teams on AWS.
+
 \[Blog, 03/22\] [**Secure Amazon S3 access for isolated Amazon SageMaker notebook instances**](https://aws.amazon.com/blogs/machine-learning/secure-amazon-s3-access-for-isolated-amazon-sagemaker-notebook-instances/)
 In this post, we will demonstrate how to securely launch notebook instances in a private subnet of an Amazon Virtual Private Cloud (Amazon VPC), with internet access disabled, and to securely connect to Amazon Simple Storage Service (Amazon S3) using VPC endpoints. This post is for network and security architects that support decentralized data science teams on AWS.
 
@@ -235,11 +253,14 @@ SageMaker.
 
 #### Security Whitepaper
 
+\[Whitepaper, 11/21\] [**Machine Learning Best Practices in Healthcare and Life Sciences**](https://docs.aws.amazon.com/whitepapers/latest/ml-best-practices-healthcare-life-sciences/ml-best-practices-healthcare-life-sciences.html)
+This whitepaper describes how AWS approaches machine learning (ML) in a regulated environment and provides guidance on good ML practices using AWS products. This whitepaper takes into consideration the principles described in the Proposed Regulatory Framework for Modifications to Artificial Intelligence/Machine Learning (AI/ML)-Based Software as a Medical Device (SaMD discussion paper. 
+
+\[Whitepaper, 10/21\] [**AWS Well-Architected Framework: Machine Learning Lens**](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html)
+This whitepaper provides you with a set of established cloud and technology agnostic best practices. You can apply this guidance and architectural principles when designing your ML workloads, or after your workloads have entered production as part of continuous improvement. The paper includes guidance and resources to help you implement these best practices on AWS. 
+
 \[Whitepaper, 06/20\] [**Machine Learning Best Practices in Financial Services**](https://d1.awsstatic.com/whitepapers/machine-learning-in-financial-services-on-aws.pdf)
 Provides guidance on security and model governance considerations for financial institutions, although this advice also applies to other industries.
-
-\[Whitepaper, 04/20\] [**AWS Well-Architected Framework: Machine Learning Lens**](https://d1.awsstatic.com/whitepapers/architecture/wellarchitected-Machine-Learning-Lens.pdf)
-A high-level overview of common ML scenarios and best practices for designing your ML workload.
 
 #### Security Workshop
 
@@ -276,6 +297,12 @@ Provides best practices for using various SageMaker features to optimize the cos
 This JupyterLab extension automatically shuts down Kernels and Apps in Sagemaker Studio when they are idle for a stipulated period of time. You will be able to configure an idle time limit using the user interface this extension provides
 
 ### Inference
+
+\[Blog, 05/22\] [**Achieve hyperscale performance for model serving using NVIDIA Triton Inference Server on Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/achieve-hyperscale-performance-for-model-serving-using-nvidia-triton-inference-server-on-amazon-sagemaker/)
+In this post, we look at best practices for deploying transformer models at scale on GPUs using Triton Inference Server on SageMaker. First, we start with a summary of key concepts around latency in SageMaker, and an overview of performance tuning guidelines. Next, we provide an overview of Triton and its features as well as example code for deploying on SageMaker. Finally, we perform load tests using SageMaker Inference Recommender and summarize the insights and conclusions from load testing of a popular transformer model provided by Hugging Face.
+
+\[Blog, 04/22\] [**Host Hugging Face transformer models using Amazon SageMaker Serverless Inference**](https://aws.amazon.com/blogs/machine-learning/host-hugging-face-transformer-models-using-amazon-sagemaker-serverless-inference/)
+In this post, we explore how to use SageMaker Serverless Inference to deploy Hugging Face transformer models and discuss the inference performance and cost-effectiveness in different scenarios.
 
 \[Blog, 10/21\] [**Run computer vision inference on large videos with Amazon SageMaker asynchronous endpoints**](https://aws.amazon.com/blogs/machine-learning/run-computer-vision-inference-on-large-videos-with-amazon-sagemaker-asynchronous-endpoints/)
 Customers are increasingly using computer vision models on large input payloads. These applications receive bursts of incoming traffic and require near-real-time processing. In this post, we show you how to serve a PyTorch CV model with SageMaker asynchronous inference to process a burst traffic of large input payload videos uploaded to Amazon S3.
@@ -342,6 +369,15 @@ Hands-on lab from ML model training to model compilation to edge device model de
 * [Workshop](#other-workshop)
 
 #### Other Blog
+
+\[Blog, 05/22\] [**3 + 1 ways of running R on Amazon SageMaker**](https://towardsdatascience.com/3-1-ways-of-running-r-on-amazon-sagemaker-13034a8f3686)
+In this post we briefly describe the main ways of running your R workloads on the cloud, making use of Amazon SageMaker, the end-to-end Machine Learning cloud offering of AWS. AWS is infamous for providing options and flexibility on how developers and scientists can use their products, so don’t be surprised that this is also true for SageMaker.
+
+\[Blog, 04/22\] [**Detect adversarial inputs using Amazon SageMaker Model Monitor and Amazon SageMaker Debugger**](https://aws.amazon.com/blogs/machine-learning/detect-adversarial-inputs-using-amazon-sagemaker-model-monitor-and-amazon-sagemaker-debugger/)
+In this post, we walk you through how to detect adversarial inputs using Amazon SageMaker Model Monitor and Amazon SageMaker Debugger for an image classification model hosted on Amazon SageMaker.
+
+\[Blog, 03/22\] **Set up a text summarization project with Hugging Face Transformers** ([Part 1](https://aws.amazon.com/blogs/machine-learning/part-1-set-up-a-text-summarization-project-with-hugging-face-transformers/)) ([Part 2](https://aws.amazon.com/blogs/machine-learning/part-2-set-up-a-text-summarization-project-with-hugging-face-transformers/))
+This two-part series, proposes a practical guide for organizations so you can assess the quality of text summarization models for your domain.
 
 \[Blog, 03/22\] [**Local Mode Training and Inference in SageMaker Studio**](https://medium.com/@sam.edwards1976/local-mode-training-and-inference-in-sagemaker-studio-3062d10ae603)
 In SageMaker, ML jobs are managed and run by AWS, which is great for production as you do not have to worry about managing the underlying resources and it is easy to scale. However, when you are in development stage, running a job on SageMaker, means you have less access to the job resources. Which makes it less productive from debug and troubleshooting perspectives. This is where SageMaker Python SDK ‘Local Mode’ shines. ‘Local Mode’ allows you replicate same job on your local development environment and therefore have full access to the job resources while you are in development stage. It pulls images from ECR and setup containers to run in your local environment just as it would be done in SageMaker.
@@ -487,6 +523,12 @@ This repository contains a collection of example Jupyter notebooks that interact
 
 ### Kendra Blog
 
+\[Blog, 04/22\] [**Enable Amazon Kendra search for a scanned or image-based text document**](https://aws.amazon.com/blogs/machine-learning/enable-amazon-kendra-search-for-a-scanned-or-image-based-text-document/)
+Amazon Kendra supports a variety of document formats, such as Microsoft Word, PDF, and text. While working with a leading Edtech customer, we were asked to build an enterprise search solution that also utilizes images and PPT files. This post focuses on extending the document support in Amazon Kendra so you can preprocess text images and scanned documents (JPEG, PNG, or PDF format) to make them searchable. 
+
+\[Blog, 03/22\] [**Improve search accuracy with Spell Checker in Amazon Kendra**](https://aws.amazon.com/blogs/machine-learning/improve-search-accuracy-with-spell-checker-in-amazon-kendra/)
+In this post, we explore how to use Amazon Kendra Spell Checker on the AWS Management Console, as well as how to enable Spell Checker in an Amazon Kendra-powered search application through the AWS Command Line Interface (AWS CLI) and AWS SDK.
+
 \[Blog, 11/21\] [**Process and add additional file formats to your Amazon Kendra Index**](https://aws.amazon.com/blogs/machine-learning/process-and-add-additional-file-formats-to-your-amazon-kendra-index/)
 As of September 2021, Amazon Kendra accepts the following document types: Plaintext, HTML, PDF, Microsoft PowerPoint, and Microsoft Word. In this post, we show how to add other formats, including RTF and markdown, to your Amazon Kendra indexes. In addition, we demonstrate how you can add additional file formats to your Amazon Kendra cluster.
 
@@ -520,6 +562,12 @@ A step-by-step walkthrough of basic Kendra functionality with explanations.
 * [Workshop](#lex-workshop)
 
 ### Lex Blog
+
+\[Blog, 05/22\] [**Use Amazon Lex to capture street addresses**](https://aws.amazon.com/blogs/machine-learning/use-amazon-lex-to-capture-street-addresses/)
+In this post, we’ll demonstrate how you can use Amazon Lex and the Amazon Location Service to provide an effective user experience for capturing their address via voice or text.
+
+\[Blog, 04/22\] [**Integrate ServiceNow with Amazon Lex chatbot for ticket processing**](https://aws.amazon.com/blogs/machine-learning/integrate-servicenow-with-amazon-lex-chatbot-for-ticket-processing/)
+In this post, we show you how to integrate an Amazon Lex chatbot with ServiceNow . The bot will make it easier for creation and tracking of tickets for day-to-day activities such as issuing new office equipment for new hires.
 
 \[Blog, 03/22\] [**Enable conversational chatbots for telephony using Amazon Lex and the Amazon Chime SDK**](https://aws.amazon.com/blogs/machine-learning/enable-conversational-chatbots-for-telephony-using-amazon-lex-and-the-amazon-chime-sdk/)
 In this post, we teach you how to build a conversational IVR system for a fictitious travel service that accepts reservations over the phone using Amazon Lex.
@@ -661,6 +709,15 @@ In this post, we demonstrate a preprocessing method to increase the size ratio o
 
 ### Textract Blog
 
+\[Blog, 06/22\] [**Merge cells and column headers in Amazon Textract tables**](https://aws.amazon.com/blogs/machine-learning/merge-cells-and-column-headers-in-amazon-textract-tables/)
+In April 2022, Amazon Textract introduced a new capability of the table feature that automatically detects merged rows and columns as well as headers. This post walks you through a simple example of how to use the merged cells and headers features.
+
+\[Blog, 05/22\] [**Create video subtitles with Amazon Transcribe using this no-code workflow**](https://aws.amazon.com/blogs/machine-learning/create-video-subtitles-with-amazon-transcribe-using-this-no-code-workflow/)
+Subtitle creation on video content poses challenges no matter how big or small the organization. To address those challenges, Amazon Transcribe has a helpful feature that enables subtitle creation directly within the service. There is no machine learning (ML) or code writing required to get started. This post walks you through setting up a no-code workflow for creating video subtitles using Amazon Transcribe within your Amazon Web Services account.
+
+\[Blog, 04/22\] [**Specify and extract information from documents using the new Queries feature in Amazon Textract**](https://aws.amazon.com/blogs/machine-learning/specify-and-extract-information-from-documents-using-the-new-queries-feature-in-amazon-textract/)
+Amazon Textract now offers the flexibility to specify the data you need to extract from documents using the new Queries feature within the Analyze Document API. You don’t need to know the structure of the data in the document (table, form, implied field, nested data) or worry about variations across document versions and formats.
+
 \[Blog, 03/22\] [**Automate digitization of transactional documents with human oversight using Amazon Textract and Amazon A2I**](https://aws.amazon.com/blogs/machine-learning/automate-digitization-of-transactional-documents-with-human-oversight-using-amazon-textract-and-amazon-a2i/)
 In this post, we present a solution for digitizing transactional documents using Amazon Textract and incorporate a human review using Amazon Augmented AI (A2I). Our reference solution uses a highly resilient pipeline to coordinate the various document processing stages.
 
@@ -726,6 +783,9 @@ Amazon Transcribe is a automatic speech recognition service that can be used whe
 * [Video](#translate-video)
 
 ### Translate Blog
+
+\[Blog, 05/22\] [**Personalize your machine translation results by using fuzzy matching with Amazon Translate**](https://aws.amazon.com/blogs/machine-learning/personalize-your-machine-translation-results-by-using-fuzzy-matching-with-amazon-translate/)
+In this post, you learn how to customize output from Amazon Translate according to translation memory fuzzy match quality scores.
 
 \[Blog, 02/22\] [**Apply profanity masking in Amazon Translate**](https://aws.amazon.com/blogs/machine-learning/apply-profanity-masking-in-amazon-translate/)
 Amazon Translate is a neural machine translation service that delivers fast, high-quality, affordable, and customizable language translation. This post shows how you can mask profane words and phrases with a grawlix string (“?\$#@$”).

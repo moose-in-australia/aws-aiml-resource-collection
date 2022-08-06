@@ -36,6 +36,15 @@ A personal collection of useful resources for AI/ML on AWS. Resources include wo
 
 #### MLOps Blog
 
+\[Blog, 07/22\] [**Track your ML experiments end to end with Data Version Control and Amazon SageMaker Experiments**](https://aws.amazon.com/blogs/machine-learning/track-your-ml-experiments-end-to-end-with-data-version-control-and-amazon-sagemaker-experiments/)
+This post walks you through an example of how to track your experiments across code, data, artifacts, and metrics by using Amazon SageMaker Experiments in conjunction with Data Version Control (DVC). We show how you can use DVC side by side with Amazon SageMaker processing and training jobs.
+
+\[Blog, 06/22\] [**MLOps foundation roadmap for enterprises with Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/mlops-foundation-roadmap-for-enterprises-with-amazon-sagemaker/)
+In this post, you learn about the key phases of building an MLOps foundations, how multiple personas work together on this foundation, and the Amazon SageMaker purpose-built tools and built-in integrations with other AWS services that can accelerate the adoption of ML across an enterprise business.
+
+\[Blog, 06/22\] [**Improve ML developer productivity with Weights & Biases: A computer vision example on Amazon SageMaker**](https://aws.amazon.com/blogs/machine-learning/improve-ml-developer-productivity-with-weights-biases-a-computer-vision-example-on-amazon-sagemaker/)
+In this post, we train a model to identify objects for an autonomous vehicle use case using Weights & Biases (W&B) and Amazon SageMaker. We showcase how the joint solution reduces manual work for the ML developer, creates more transparency in the model development process, and enables teams to collaborate on projects.
+
 \[Blog, 06/22\] [**Automate vending Amazon SageMaker notebooks with Amazon EventBridge and AWS Lambda**](https://aws.amazon.com/blogs/machine-learning/automate-vending-amazon-sagemaker-notebooks-with-amazon-eventbridge-and-aws-lambda/)
 This post demonstrates how to centralize the management of SageMaker instance notebooks using AWS services including AWS CloudFormation, AWS Serverless Application Model (AWS SAM), AWS Service Catalog, Amazon EventBridge, AWS Systems Manager Parameter Store, Amazon API Gateway, and AWS Lambda. We walk through how to use these AWS services to automate the process of vending SageMaker notebooks to end-users.
 
@@ -191,6 +200,9 @@ Workshop to launch Amazon SageMaker Studio domain using AWS Service Catalog and 
 
 #### Security Blog
 
+\[Blog, 06/22\] **Secure Amazon SageMaker Studio presigned URLs Part 1: Foundational infrastructure** ([**Part 1**](https://aws.amazon.com/blogs/machine-learning/secure-amazon-sagemaker-studio-presigned-urls-part-1-foundational-infrastructure/)) ([**Part 2**](https://aws.amazon.com/blogs/machine-learning/secure-amazon-sagemaker-studio-presigned-urls-part-2-private-api-with-jwt-authentication/))
+You can access Amazon SageMaker Studio notebooks from the Amazon SageMaker console via AWS Identity and Access Management (IAM) authenticated federation from your identity provider (IdP), such as Okta. When a Studio user opens the notebook link, Studio validates the federated user’s IAM policy to authorize access, and generates and resolves the presigned URL for the user. These posts describe how to secure these presigned URLs.
+
 \[Blog, 06/22\] [**Amazon SageMaker Notebook Instances now support configuring and restricting IMDS versions**](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-notebook-instances-now-support-configuring-and-restricting-imds-versions/)
 In this post, we show you how to configure your SageMaker notebooks with IMDSv2 only support. We also share the support plan for IMDSv1, and how you can enforce IMDSv2 on your notebooks.
 
@@ -322,13 +334,26 @@ In this post, we explored a few parameters that you can use to maximize the perf
 \[Blog, 02/21\] [**Using container images to run PyTorch models in AWS Lambda**](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/)
 This post shows you how to use any PyTorch model with Lambda for scalable inferences in production with up to 10 GB of memory. This allows us to use ML models in Lambda functions up to a few gigabytes. For the PyTorch example, we use the Huggingface Transformers, open-source library to build a question-answering endpoint.
 
-### Clarify
+### Responsible AI
+
+* [Blog](#responsible-ai-blog)
+* [Whitepaper](#responsible-ai-whitepaper)
+
+#### Responsible AI Blog
 
 \[Blog, 06/21\] [**ML model explainability with Amazon SageMaker Clarify and the SKLearn pre-built container**](https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-clarify-with-the-sklearn-pre-built-container/)
 In this post, learn about explainability in ML models with Amazon SageMaker Clarify. You can use Clarify with the scikit-learn pre-built container.
 
 \[Blog, 06/21\] [**Human-in-the-loop review of model explanations with Amazon SageMaker Clarify and Amazon A2I**](https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-review-of-model-explanations-with-amazon-sagemaker-clarify-and-amazon-a2i/)
 In this post, we use Amazon SageMaker Clarify to provide explanations of individual predictions and Amazon Augmented AI (Amazon A2I) to create a human-in-the-loop workflow and validate specific outcomes below a threshold on an income classification use case.
+
+#### Responsible AI Whitepaper
+
+\[Whitepaper, 04/22\] [**Amazon AI Fairness and Explainability Whitepaper**](https://pages.awscloud.com/rs/112-TZM-766/images/Amazon.AI.Fairness.and.Explainability.Whitepaper.pdf)
+This whitepaper is a technical reference for AWS customers who use features from Amazon SageMaker Clarify to help identify potential bias in machine learning models and to help explain how these models make predictions.
+
+\[Whitepaper, 04/22\] [**Responsible Use of Machine Learning**](https://d1.awsstatic.com/responsible-machine-learning/responsible-use-of-machine-learning-guide.pdf)
+The Responsible Use of Machine Learning guide provides considerations and recommendations for responsibly developing and using ML systems across three major phases of their lifecycles: (1) design and development; (2) deployment; and (3) ongoing use.
 
 ### Edge
 
@@ -338,6 +363,9 @@ In this post, we use Amazon SageMaker Clarify to provide explanations of individ
 * [Workshop](#edge-workshop)
 
 #### Edge Blog
+
+\[Blog, 06/22\] [**Demystifying machine learning at the edge through real use cases**](https://aws.amazon.com/blogs/machine-learning/demystifying-machine-learning-at-the-edge-through-real-use-cases/)
+Although ML@Edge can address many use cases, there are complex architectural challenges that need to be solved in order to have a secure, robust, and reliable design. In this post, you learn some details about ML@Edge, related topics, and how to use AWS services to overcome these challenges and implement a complete solution for your ML at the edge workload.
 
 \[Blog, 03/22\] [**Anomaly detection with Amazon SageMaker Edge Manager using AWS IoT Greengrass V2**](https://aws.amazon.com/blogs/machine-learning/anomaly-detection-with-amazon-sagemaker-edge-manager-using-aws-iot-greengrass-v2/)
 This post shows how to train and deploy an anomaly detection ML model to a simulated fleet of wind turbines at the edge using features of SageMaker and AWS IoT Greengrass V2.
@@ -369,6 +397,12 @@ Hands-on lab from ML model training to model compilation to edge device model de
 * [Workshop](#other-workshop)
 
 #### Other Blog
+
+\[Blog, 07/22\] **Build and train ML models using a data mesh architecture on AWS** ([**Part 1**](https://aws.amazon.com/blogs/machine-learning/part-1-build-and-train-ml-models-using-a-data-mesh-architecture-on-aws/)) ([**Part 2**](https://aws.amazon.com/blogs/machine-learning/part-2-build-and-train-ml-models-using-a-data-mesh-architecture-on-aws/))
+In this two-part series, we provide guidance on how organizations can build a modern data architecture using a data mesh design pattern on AWS and enable an analytics and ML CoE to build and train ML models with data across multiple LoBs.
+
+\[Blog, 06/22\] [**Amazon SageMaker Studio and SageMaker Notebook Instance now come with JupyterLab 3 notebooks to boost developer productivity**](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-studio-and-sagemaker-notebook-instance-now-come-with-jupyterlab-3-notebooks-to-boost-developer-productivity/)
+In this post, we showcase some of the exciting new features built into SageMaker notebooks and call attention to some of our favorite open-source extensions that improve the developer experience when using SageMaker to build, train, and deploy your ML models.
 
 \[Blog, 05/22\] [**3 + 1 ways of running R on Amazon SageMaker**](https://towardsdatascience.com/3-1-ways-of-running-r-on-amazon-sagemaker-13034a8f3686)
 In this post we briefly describe the main ways of running your R workloads on the cloud, making use of Amazon SageMaker, the end-to-end Machine Learning cloud offering of AWS. AWS is infamous for providing options and flexibility on how developers and scientists can use their products, so don’t be surprised that this is also true for SageMaker.
@@ -479,6 +513,9 @@ This Comprehend Immersion Day provides customers with hands-on experience with A
 
 ### Forecast Blog
 
+\[Blog, 06/22\] [**Continuously monitor predictor accuracy with Amazon Forecast**](https://aws.amazon.com/blogs/machine-learning/continuously-monitor-predictor-accuracy-with-amazon-forecast/)
+Forecast now automatically tracks predictor accuracy over time as new data is imported. You can now quantify your predictor’s deviation from initial quality metrics and systematically evaluate model quality by visualizing trends, and make more informed decisions about keeping, retraining, or rebuilding your models as new data comes in.
+
 \[Blog, 11/21\] [**Understand drivers that influence your forecasts with explainability impact scores in Amazon Forecast**](https://aws.amazon.com/blogs/machine-learning/understand-drivers-that-influence-your-forecasts-with-explainability-impact-scores-in-amazon-forecast/)
 Amazon Forecast now provides explainability, which gives you item-level insights across your preferred time duration. Having a certain level of understanding on why a particular forecast value is high or low at a particular time is helpful for decision-making and building trust and confidence in your ML solutions.
 
@@ -497,6 +534,9 @@ The Improving Forecast Accuracy with Machine Learning solution helps organizatio
 * [Code Sample](#fraud-detector-code-sample)
 
 ### Fraud Detector Blog
+
+\[Blog, 06/22\] [**Diagnose model performance before deployment for Amazon Fraud Detector**](https://aws.amazon.com/blogs/machine-learning/diagnose-model-performance-before-deployment-for-amazon-fraud-detector/)
+This post will help you to diagnose model performance and pick the right model for deployment. We walk through the metrics provided by Amazon Fraud Detector, help you diagnose potential issues, and provide suggestions to improve model performance. The approaches are applicable to both Online Fraud Insights (OFI) and Transaction Fraud Insights (TFI) model templates.
 
 \[Blog, 10/21\] [**Build and visualize a real-time fraud prevention system using Amazon Fraud Detector**](https://aws.amazon.com/blogs/machine-learning/build-and-visualize-a-real-time-fraud-prevention-system-using-amazon-fraud-detector/)
 The solution in this post provides two use cases that are built on top of a Transaction Fraud Insights model. The first use case demonstrates fraud prevention by identifying fraudulent transactions, flagging them to be blocked, and sending an alert notification. The second, writes all transactions in real time to Amazon OpenSearch Service, this enables real-time transaction reporting using OpenSearch Dashboards.
@@ -522,6 +562,9 @@ This repository contains a collection of example Jupyter notebooks that interact
 * [Workshop](#kendra-workshop)
 
 ### Kendra Blog
+
+\[Blog, 06/22\] [**Take your intelligent search experience to the next level with Amazon Kendra hierarchical facets**](https://aws.amazon.com/blogs/machine-learning/take-your-intelligent-search-experience-to-the-next-level-with-amazon-kendra-hierarchical-facets/)
+In a search solution with a growing number of documents, simple faceting or filtering isn’t always sufficient to enable users to really pinpoint documents with the information they’re looking for. Amazon Kendra now features hierarchical facets, with a more granular view of the scope of the search results. In this post, we demonstrate what hierarchical facets in Amazon Kendra can do. We first ingest a set of documents, along with their metadata, into an Amazon Kendra index. 
 
 \[Blog, 04/22\] [**Enable Amazon Kendra search for a scanned or image-based text document**](https://aws.amazon.com/blogs/machine-learning/enable-amazon-kendra-search-for-a-scanned-or-image-based-text-document/)
 Amazon Kendra supports a variety of document formats, such as Microsoft Word, PDF, and text. While working with a leading Edtech customer, we were asked to build an enterprise search solution that also utilizes images and PPT files. This post focuses on extending the document support in Amazon Kendra so you can preprocess text images and scanned documents (JPEG, PNG, or PDF format) to make them searchable. 
@@ -563,6 +606,9 @@ A step-by-step walkthrough of basic Kendra functionality with explanations.
 
 ### Lex Blog
 
+\[Blog, 07/22\] [**Drive efficiencies with CI/CD best practices on Amazon Lex**](https://aws.amazon.com/blogs/machine-learning/drive-efficiencies-with-ci-cd-best-practices-on-amazon-lex/)
+Let’s say you have identified a use case in your organization that you would like to handle via a chatbot. You familiarized yourself with Amazon Lex, built a prototype, and did a few trial interactions with the bot. You liked the overall experience and now want to deploy the bot in your production environment, but aren’t sure about best practices for Amazon Lex. In this post, we review the best practices for developing and deploying Amazon Lex bots, enabling you to streamline the end-to-end bot lifecycle and optimize your operations.
+
 \[Blog, 05/22\] [**Use Amazon Lex to capture street addresses**](https://aws.amazon.com/blogs/machine-learning/use-amazon-lex-to-capture-street-addresses/)
 In this post, we’ll demonstrate how you can use Amazon Lex and the Amazon Location Service to provide an effective user experience for capturing their address via voice or text.
 
@@ -597,6 +643,9 @@ The new Amazon Lex V2 Console makes it easier to build, deploy, and manage bots.
 * [Workshop](#lookout-for-metrics-workshop)
 
 ### Lookout for Metrics Blog
+
+\[Blog, 06/22\] [**Easily customize your notifications while using Amazon Lookout for Metrics**](https://aws.amazon.com/blogs/machine-learning/easily-customize-your-notifications-while-using-amazon-lookout-for-metrics/)
+We are excited to announce that you can now add filters to alerts and also edit existing alerts while using Amazon Lookout for Metrics. In this post, we demonstrate how to create Alert with filters and how the configured filters publish alerts only for anomalies matching the filter criteria.
 
 \[Blog, 08/21\] [**Simplify and automate anomaly detection in streaming data with Amazon Lookout for Metrics**](https://aws.amazon.com/blogs/machine-learning/simplify-and-automate-anomaly-detection-in-streaming-data-with-amazon-lookout-for-metrics/)
 Amazon Lookout for Metrics does not currently have a native integration with Amazon Kinesis Data Streams to ingest streaming data and run anomaly detection on it. This blog can help customers solve this problem by using an AWS Glue Spark streaming ETL script to ingest and organize streaming data.
